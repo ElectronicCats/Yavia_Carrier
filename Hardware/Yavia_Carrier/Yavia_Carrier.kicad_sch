@@ -8136,7 +8136,7 @@
   (junction (at 54.991 241.046) (diameter 0) (color 0 0 0 0)
     (uuid 0cbc1898-8c50-4647-a156-b3392a2ff9cb)
   )
-  (junction (at 389.89 176.022) (diameter 0) (color 0 0 0 0)
+  (junction (at 402.463 161.036) (diameter 0) (color 0 0 0 0)
     (uuid 0fccdffe-ea5c-4198-9eee-9ca9cd70fc60)
   )
   (junction (at 392.938 54.61) (diameter 0) (color 0 0 0 0)
@@ -8189,6 +8189,9 @@
   )
   (junction (at 54.991 246.126) (diameter 0) (color 0 0 0 0)
     (uuid 52199960-34ed-4729-9714-4bf7e681daf8)
+  )
+  (junction (at 403.098 92.837) (diameter 0) (color 0 0 0 0)
+    (uuid 54a82621-82d4-4f45-baa4-c01fc22ae19c)
   )
   (junction (at 367.665 152.019) (diameter 0) (color 0 0 0 0)
     (uuid 57fcca1c-7754-4c73-84cb-9f3956d450c5)
@@ -8288,6 +8291,9 @@
   )
   (junction (at 21.971 238.506) (diameter 0) (color 0 0 0 0)
     (uuid c1d2f9c9-6bac-4fe0-97b3-0e0e5c4e8a95)
+  )
+  (junction (at 368.3 83.947) (diameter 0) (color 0 0 0 0)
+    (uuid c6b421bd-abad-4050-882e-ec487b35eadb)
   )
   (junction (at 54.991 253.746) (diameter 0) (color 0 0 0 0)
     (uuid cbb506dc-7096-493a-8810-9167997caf60)
@@ -8390,7 +8396,6 @@
   (no_connect (at 155.321 134.874) (uuid 2cd7f242-47b6-4af5-918b-43028269ea93))
   (no_connect (at 155.321 124.714) (uuid 319c87ec-780d-4149-aeda-777a79c07ec2))
   (no_connect (at 136.398 198.247) (uuid 31b0ce7b-eb17-4057-aaf6-b887485861dd))
-  (no_connect (at 199.771 175.514) (uuid 3214d1a7-3f61-450f-b572-a1b581800705))
   (no_connect (at 199.771 109.474) (uuid 3510be26-cffb-49ee-a7e5-4b9752aea574))
   (no_connect (at 136.398 175.387) (uuid 35160179-27ef-48c2-a93a-095d7c04425e))
   (no_connect (at 95.758 137.287) (uuid 37a0def9-cc8e-4918-a187-b0b996de2050))
@@ -8548,21 +8553,29 @@
   (no_connect (at 136.398 180.467) (uuid fd8003ea-08ac-4a3c-a84b-0c26a469a950))
   (no_connect (at 136.398 167.767) (uuid fe05f4a8-86c7-4152-93d4-6a7c82cdc504))
 
+  (wire (pts (xy 359.029 91.694) (xy 359.029 89.027))
+    (stroke (width 0) (type default))
+    (uuid 008c91ad-ba92-4e98-8f71-fc63cd125054)
+  )
   (wire (pts (xy 343.789 47.752) (xy 348.488 47.752))
     (stroke (width 0) (type default))
     (uuid 00d9650f-2fa7-4bd9-920e-b5f7dbe7c7ba)
   )
-  (wire (pts (xy 382.27 182.245) (xy 381.381 182.245))
+  (wire (pts (xy 394.843 167.259) (xy 393.954 167.259))
     (stroke (width 0) (type default))
     (uuid 023eee36-af84-4a3c-877b-d6b6223d2bac)
   )
-  (wire (pts (xy 230.759 121.158) (xy 226.314 121.158))
+  (wire (pts (xy 247.777 122.301) (xy 243.332 122.301))
     (stroke (width 0) (type default))
     (uuid 026bff71-32b5-4872-9533-ad24671250ce)
   )
   (wire (pts (xy 53.721 195.326) (xy 54.991 195.326))
     (stroke (width 0) (type default))
     (uuid 029ea5d0-8b0c-4730-8e0c-629eebfd8766)
+  )
+  (wire (pts (xy 343.154 116.713) (xy 340.487 116.713))
+    (stroke (width 0) (type default))
+    (uuid 02d94042-803a-4949-a34e-315fd30f4cd0)
   )
   (wire (pts (xy 297.942 81.915) (xy 297.942 78.486))
     (stroke (width 0) (type default))
@@ -8612,11 +8625,15 @@
     (stroke (width 0) (type default))
     (uuid 0bffb44d-f42d-46ee-8ede-b1b2d19d99b0)
   )
+  (wire (pts (xy 368.3 83.947) (xy 371.348 83.947))
+    (stroke (width 0) (type default))
+    (uuid 0d5c8d40-24c4-41f5-bf38-4ff45a36d344)
+  )
   (wire (pts (xy 36.195 31.369) (xy 36.195 35.052))
     (stroke (width 0) (type default))
     (uuid 0d801344-02be-494d-8668-72893c7eb94d)
   )
-  (wire (pts (xy 375.539 217.297) (xy 375.539 219.075))
+  (wire (pts (xy 364.744 183.007) (xy 364.744 184.785))
     (stroke (width 0) (type default))
     (uuid 0f24e009-5819-4003-b02a-780d7bea5c30)
   )
@@ -8664,6 +8681,10 @@
     (stroke (width 0) (type default))
     (uuid 199084f2-6cfa-4001-a42e-48ed74eac0fb)
   )
+  (wire (pts (xy 365.379 123.698) (xy 365.379 119.253))
+    (stroke (width 0) (type default))
+    (uuid 19b3dd22-566f-45b3-a391-302ff48620a1)
+  )
   (wire (pts (xy 21.971 251.206) (xy 21.971 253.746))
     (stroke (width 0) (type default))
     (uuid 1a349cfc-72b7-4d1b-863b-d3e93c10af2c)
@@ -8700,7 +8721,7 @@
     (stroke (width 0) (type default))
     (uuid 1ed75114-634d-4149-873c-d5dbf8d8b4bf)
   )
-  (wire (pts (xy 375.539 221.615) (xy 372.364 221.615))
+  (wire (pts (xy 364.744 187.325) (xy 361.569 187.325))
     (stroke (width 0) (type default))
     (uuid 1eeae471-187c-4e63-a86a-ea2acb3949a9)
   )
@@ -8752,13 +8773,29 @@
     (stroke (width 0) (type default))
     (uuid 27832b6e-8399-4510-bbb8-ef5b3de968e0)
   )
-  (wire (pts (xy 350.647 225.425) (xy 353.314 225.425))
+  (wire (pts (xy 201.422 175.514) (xy 199.771 175.514))
+    (stroke (width 0) (type default))
+    (uuid 282b607b-2e17-4691-8b62-284f5eab54a0)
+  )
+  (wire (pts (xy 339.852 191.135) (xy 342.519 191.135))
     (stroke (width 0) (type default))
     (uuid 283ec0ad-8032-4a1c-9c9a-fef6438e194e)
   )
   (wire (pts (xy 21.971 215.646) (xy 23.241 215.646))
     (stroke (width 0) (type default))
     (uuid 292c276f-69ce-4d5a-841a-205067971e0b)
+  )
+  (wire (pts (xy 328.549 89.027) (xy 333.375 89.027))
+    (stroke (width 0) (type default))
+    (uuid 2980b91c-a3d6-4dc8-8f25-681d90494ec2)
+  )
+  (wire (pts (xy 340.487 123.571) (xy 340.487 123.063))
+    (stroke (width 0) (type default))
+    (uuid 29de3c06-fb31-439a-9ec3-3290aaec7252)
+  )
+  (wire (pts (xy 340.487 123.063) (xy 343.154 123.063))
+    (stroke (width 0) (type default))
+    (uuid 2aaa8c95-ebb9-4182-be6e-be954c0248c6)
   )
   (wire (pts (xy 53.721 256.286) (xy 54.991 256.286))
     (stroke (width 0) (type default))
@@ -8791,6 +8828,10 @@
   (wire (pts (xy 324.739 52.832) (xy 318.516 52.832))
     (stroke (width 0) (type default))
     (uuid 30518d02-802d-47ef-bbe3-0530882cac43)
+  )
+  (wire (pts (xy 403.098 92.837) (xy 403.098 94.107))
+    (stroke (width 0) (type default))
+    (uuid 307261ce-9757-4568-9082-55bd1eb590a2)
   )
   (wire (pts (xy 31.369 33.909) (xy 38.608 33.909))
     (stroke (width 0) (type default))
@@ -8837,9 +8878,17 @@
     (uuid 38a2eb54-fb45-48c6-9ced-9f225099cd5c)
   )
 
+  (wire (pts (xy 328.041 106.807) (xy 328.041 108.331))
+    (stroke (width 0) (type default))
+    (uuid 38d32bf0-6abf-4b33-8832-e11b3c8ec312)
+  )
   (wire (pts (xy 53.721 187.706) (xy 54.991 187.706))
     (stroke (width 0) (type default))
     (uuid 38e46dde-ff09-4d03-a773-0f2cdd165387)
+  )
+  (wire (pts (xy 365.379 116.713) (xy 362.204 116.713))
+    (stroke (width 0) (type default))
+    (uuid 3919864f-ffc1-4e3d-b432-2128e52604a4)
   )
   (wire (pts (xy 49.784 32.893) (xy 49.784 36.449))
     (stroke (width 0) (type default))
@@ -8861,7 +8910,7 @@
     (stroke (width 0) (type default))
     (uuid 3ab81fac-db00-4d0b-ab78-69194f7f5945)
   )
-  (wire (pts (xy 353.314 219.075) (xy 350.647 219.075))
+  (wire (pts (xy 342.519 184.785) (xy 339.852 184.785))
     (stroke (width 0) (type default))
     (uuid 3c6005c9-111f-48f8-9e48-5cfea8792bd0)
   )
@@ -8873,9 +8922,25 @@
     (stroke (width 0) (type default))
     (uuid 3f06a8d2-b255-45da-be8a-993c77bb49fe)
   )
+  (wire (pts (xy 383.54 123.571) (xy 383.54 119.888))
+    (stroke (width 0) (type default))
+    (uuid 3f6372fe-7257-4b69-b5f5-77792cb7ec38)
+  )
+  (wire (pts (xy 338.455 89.027) (xy 340.36 89.027))
+    (stroke (width 0) (type default))
+    (uuid 3f80fec8-2258-46e2-a455-54042a003ef1)
+  )
   (wire (pts (xy 21.971 225.806) (xy 23.241 225.806))
     (stroke (width 0) (type default))
     (uuid 40e3df59-37d8-4389-94d6-85a3c2862ba1)
+  )
+  (wire (pts (xy 328.549 83.947) (xy 340.36 83.947))
+    (stroke (width 0) (type default))
+    (uuid 41873415-ee6a-4863-b882-b1270de606e9)
+  )
+  (wire (pts (xy 359.029 89.027) (xy 355.6 89.027))
+    (stroke (width 0) (type default))
+    (uuid 41c466fe-0dec-4cb3-91b6-e53f5f289c83)
   )
   (wire (pts (xy 21.971 197.866) (xy 23.241 197.866))
     (stroke (width 0) (type default))
@@ -8913,6 +8978,10 @@
   (wire (pts (xy 109.982 40.894) (xy 109.982 39.878))
     (stroke (width 0) (type default))
     (uuid 47653b84-42ff-4078-8d99-e370dff1333c)
+  )
+  (wire (pts (xy 327.279 85.344) (xy 328.549 85.344))
+    (stroke (width 0) (type default))
+    (uuid 48485991-433c-46ae-8e35-be89ee5c0724)
   )
   (wire (pts (xy 343.789 52.832) (xy 350.012 52.832))
     (stroke (width 0) (type default))
@@ -8954,7 +9023,7 @@
     (stroke (width 0) (type default))
     (uuid 52e459e5-96ce-4b63-b1d0-a596c0e1500f)
   )
-  (wire (pts (xy 389.89 174.752) (xy 389.89 176.022))
+  (wire (pts (xy 402.463 159.766) (xy 402.463 161.036))
     (stroke (width 0) (type default))
     (uuid 52ff8f87-5098-481f-99d9-54e37d2dbc46)
   )
@@ -8995,7 +9064,7 @@
     (stroke (width 0) (type default))
     (uuid 57faef75-7c0f-45d7-973a-58f539d5b8bb)
   )
-  (wire (pts (xy 389.89 187.325) (xy 389.89 190.5))
+  (wire (pts (xy 402.463 172.339) (xy 402.463 175.514))
     (stroke (width 0) (type default))
     (uuid 59ed9530-47a1-4257-b730-5cbc52f77ca3)
   )
@@ -9064,17 +9133,21 @@
     (stroke (width 0) (type default))
     (uuid 6428ed18-1855-43e9-83f6-e60bcccc196d)
   )
-  (wire (pts (xy 389.89 176.022) (xy 397.891 176.022))
+  (wire (pts (xy 402.463 161.036) (xy 410.464 161.036))
     (stroke (width 0) (type default))
     (uuid 64574d91-af3f-4063-979d-a045304b71bf)
   )
-  (wire (pts (xy 230.759 123.698) (xy 226.314 123.698))
+  (wire (pts (xy 247.777 124.841) (xy 243.332 124.841))
     (stroke (width 0) (type default))
     (uuid 64cabb1a-9bdb-41b4-a411-82bc2775c6b3)
   )
   (wire (pts (xy 54.991 197.866) (xy 54.991 195.326))
     (stroke (width 0) (type default))
     (uuid 6604f849-deb4-40eb-b7b0-c165039b56d8)
+  )
+  (wire (pts (xy 403.098 104.267) (xy 403.098 107.442))
+    (stroke (width 0) (type default))
+    (uuid 6b0da47c-5227-4689-bdb8-bba6cbde16a0)
   )
   (wire (pts (xy 73.025 112.903) (xy 73.025 115.443))
     (stroke (width 0) (type default))
@@ -9092,7 +9165,7 @@
     (stroke (width 0) (type default))
     (uuid 6ec85a4b-b315-43f8-a382-0cfe044c7814)
   )
-  (wire (pts (xy 389.89 168.275) (xy 389.89 169.672))
+  (wire (pts (xy 402.463 153.289) (xy 402.463 154.686))
     (stroke (width 0) (type default))
     (uuid 6f9f9bcb-9273-4a2e-ac23-3e084730a064)
   )
@@ -9135,6 +9208,10 @@
   (wire (pts (xy 397.637 54.61) (xy 392.938 54.61))
     (stroke (width 0) (type default))
     (uuid 76d0bf50-9ddc-402b-81df-6d4c9ee5aa76)
+  )
+  (wire (pts (xy 403.098 91.694) (xy 403.098 92.837))
+    (stroke (width 0) (type default))
+    (uuid 76f223fa-591b-4953-b111-c4b37cb93f69)
   )
   (wire (pts (xy 54.991 258.826) (xy 54.991 256.286))
     (stroke (width 0) (type default))
@@ -9184,7 +9261,7 @@
     (stroke (width 0) (type default))
     (uuid 899eb928-4a8e-49cb-b8e0-acc83782b1ba)
   )
-  (wire (pts (xy 350.647 219.075) (xy 350.647 215.392))
+  (wire (pts (xy 339.852 184.785) (xy 339.852 181.102))
     (stroke (width 0) (type default))
     (uuid 8b102214-ab01-4eca-9c2e-e4f930118f31)
   )
@@ -9204,13 +9281,17 @@
     (stroke (width 0) (type default))
     (uuid 8fb840b7-488f-4e46-9fa3-b947371b68f3)
   )
-  (wire (pts (xy 351.79 183.515) (xy 360.299 183.515))
+  (wire (pts (xy 364.363 168.529) (xy 372.872 168.529))
     (stroke (width 0) (type default))
     (uuid 8fd9da55-36c1-4188-b371-e00ead1a4d16)
   )
   (wire (pts (xy 298.958 30.48) (xy 298.958 31.496))
     (stroke (width 0) (type default))
     (uuid 904cf71c-d05d-4678-90d3-6ae62afb4700)
+  )
+  (wire (pts (xy 387.477 99.187) (xy 389.509 99.187))
+    (stroke (width 0) (type default))
+    (uuid 90d768c6-3013-4d0c-a32d-d34b2f1bc21d)
   )
   (wire (pts (xy 327.914 157.099) (xy 332.74 157.099))
     (stroke (width 0) (type default))
@@ -9235,6 +9316,14 @@
   (wire (pts (xy 343.789 24.892) (xy 350.012 24.892))
     (stroke (width 0) (type default))
     (uuid 96adb801-e38c-4945-ad3e-ddebd3bf752a)
+  )
+  (wire (pts (xy 387.223 117.348) (xy 383.413 117.348))
+    (stroke (width 0) (type default))
+    (uuid 96c5306c-7736-4b81-8d86-61b8df91a96c)
+  )
+  (wire (pts (xy 340.487 116.713) (xy 340.487 113.03))
+    (stroke (width 0) (type default))
+    (uuid 98827bfd-d72c-4c05-86c8-b48921247602)
   )
   (wire (pts (xy 53.721 230.886) (xy 54.991 230.886))
     (stroke (width 0) (type default))
@@ -9278,7 +9367,7 @@
     (stroke (width 0) (type default))
     (uuid 9e8bf4ce-f3bb-4a15-9d29-5e0712809af9)
   )
-  (wire (pts (xy 393.7 225.933) (xy 393.7 222.25))
+  (wire (pts (xy 382.905 191.643) (xy 382.905 187.96))
     (stroke (width 0) (type default))
     (uuid a044f852-45f6-42a6-a2ab-a6fa6901e2dd)
   )
@@ -9286,7 +9375,7 @@
     (stroke (width 0) (type default))
     (uuid a0505939-7d03-4467-9398-cbe8e09867c0)
   )
-  (wire (pts (xy 393.573 219.71) (xy 393.573 217.297))
+  (wire (pts (xy 382.778 185.42) (xy 382.778 183.007))
     (stroke (width 0) (type default))
     (uuid a0640cf8-2635-410e-9964-43d4e1d73e85)
   )
@@ -9298,11 +9387,15 @@
     (stroke (width 0) (type default))
     (uuid a41dce6f-fc6c-4666-a792-663c436c6995)
   )
+  (wire (pts (xy 383.54 119.888) (xy 387.223 119.888))
+    (stroke (width 0) (type default))
+    (uuid a44cc140-bdf3-413f-9305-d859735e2fb8)
+  )
   (wire (pts (xy 343.789 22.352) (xy 350.012 22.352))
     (stroke (width 0) (type default))
     (uuid a53144ad-1458-42f3-8bb8-f60877343f6d)
   )
-  (wire (pts (xy 389.89 176.022) (xy 389.89 177.165))
+  (wire (pts (xy 402.463 161.036) (xy 402.463 162.179))
     (stroke (width 0) (type default))
     (uuid a5e2097e-29b6-433e-8ea7-6223e7943eb1)
   )
@@ -9346,6 +9439,14 @@
   (wire (pts (xy 348.488 55.372) (xy 348.488 57.785))
     (stroke (width 0) (type default))
     (uuid ab396cce-7244-451e-be44-a1d014794049)
+  )
+  (wire (pts (xy 395.478 99.187) (xy 394.589 99.187))
+    (stroke (width 0) (type default))
+    (uuid ab7714cb-8e32-4ab6-9c49-bfbd2d08cbd7)
+  )
+  (wire (pts (xy 363.22 100.457) (xy 373.507 100.457))
+    (stroke (width 0) (type default))
+    (uuid ab87c306-599c-4549-bf99-df407a78b508)
   )
   (wire (pts (xy 324.739 40.132) (xy 320.04 40.132))
     (stroke (width 0) (type default))
@@ -9396,6 +9497,10 @@
     (stroke (width 0) (type default))
     (uuid b1699a68-5346-4bfa-bc8a-675e813ad0dc)
   )
+  (wire (pts (xy 383.413 117.348) (xy 383.413 114.935))
+    (stroke (width 0) (type default))
+    (uuid b1f063c1-69a8-4a77-b84b-2906fed95644)
+  )
   (wire (pts (xy 397.637 52.07) (xy 391.414 52.07))
     (stroke (width 0) (type default))
     (uuid b223e7dc-a2ef-46f3-8ffd-513a1458ba70)
@@ -9412,7 +9517,7 @@
     (stroke (width 0) (type default))
     (uuid b45cb34f-97d6-4eb4-9c14-8f2cf6318b16)
   )
-  (wire (pts (xy 374.269 182.245) (xy 376.301 182.245))
+  (wire (pts (xy 386.842 167.259) (xy 388.874 167.259))
     (stroke (width 0) (type default))
     (uuid b4a5f2df-52ab-4110-a735-882cf9a4d8bf)
   )
@@ -9445,13 +9550,17 @@
     (stroke (width 0) (type default))
     (uuid b6f77556-066e-4a2d-bf50-5a102d1460ea)
   )
-  (wire (pts (xy 350.647 225.933) (xy 350.647 225.425))
+  (wire (pts (xy 339.852 191.643) (xy 339.852 191.135))
     (stroke (width 0) (type default))
     (uuid b72e07a2-1207-45aa-af8a-f95f48a40316)
   )
   (wire (pts (xy 343.789 19.812) (xy 348.488 19.812))
     (stroke (width 0) (type default))
     (uuid b7e7047c-289f-4b31-b399-596795dad938)
+  )
+  (wire (pts (xy 328.549 89.027) (xy 328.549 87.884))
+    (stroke (width 0) (type default))
+    (uuid b8b19eec-725f-447f-bb2d-8e94dacb0d23)
   )
   (wire (pts (xy 324.739 47.752) (xy 320.04 47.752))
     (stroke (width 0) (type default))
@@ -9465,7 +9574,7 @@
     (stroke (width 0) (type default))
     (uuid b9dfd08e-4c60-47ed-891e-0e60eec5e266)
   )
-  (wire (pts (xy 375.539 219.075) (xy 372.364 219.075))
+  (wire (pts (xy 364.744 184.785) (xy 361.569 184.785))
     (stroke (width 0) (type default))
     (uuid ba225cae-7e4a-4736-9c98-13eeafab8960)
   )
@@ -9490,6 +9599,14 @@
     (stroke (width 0) (type default))
     (uuid bb7907af-9579-473c-95ec-623b020c3891)
   )
+  (wire (pts (xy 328.549 85.344) (xy 328.549 83.947))
+    (stroke (width 0) (type default))
+    (uuid bba238c0-e7ad-4bf6-bfb4-29e55dcd25fc)
+  )
+  (wire (pts (xy 403.098 85.217) (xy 403.098 86.614))
+    (stroke (width 0) (type default))
+    (uuid bca23197-13a6-473a-a3fe-808f7cb64d0a)
+  )
   (wire (pts (xy 21.971 187.706) (xy 21.971 190.246))
     (stroke (width 0) (type default))
     (uuid bd84f16b-fb63-4889-beae-cc565cee2f06)
@@ -9502,7 +9619,7 @@
     (stroke (width 0) (type default))
     (uuid bf0f8c10-66ba-430b-8812-57060c6048c4)
   )
-  (wire (pts (xy 375.539 226.06) (xy 375.539 221.615))
+  (wire (pts (xy 364.744 191.77) (xy 364.744 187.325))
     (stroke (width 0) (type default))
     (uuid bf35377a-51f4-4b15-a30d-579d5a031791)
   )
@@ -9517,6 +9634,10 @@
   (wire (pts (xy 27.432 159.004) (xy 26.543 159.004))
     (stroke (width 0) (type default))
     (uuid c1352d60-c3d1-4a91-971d-465002351390)
+  )
+  (wire (pts (xy 327.279 87.884) (xy 328.549 87.884))
+    (stroke (width 0) (type default))
+    (uuid c181045e-e3c6-40e9-8b04-b3f5f2021e22)
   )
   (wire (pts (xy 43.942 153.67) (xy 47.117 153.67))
     (stroke (width 0) (type default))
@@ -9542,6 +9663,10 @@
     (stroke (width 0) (type default))
     (uuid c7f5e3ed-1eca-4399-bb8a-556342344631)
   )
+  (wire (pts (xy 368.3 76.835) (xy 368.3 78.232))
+    (stroke (width 0) (type default))
+    (uuid cb40c7cf-f40a-4236-aca6-4f3cf84d8cd9)
+  )
   (wire (pts (xy 21.971 213.106) (xy 21.971 215.646))
     (stroke (width 0) (type default))
     (uuid cc4f7114-af95-4622-9f90-605713b8c10f)
@@ -9558,7 +9683,7 @@
     (stroke (width 0) (type default))
     (uuid ce92dfc9-0922-45dd-b563-ff23a29c02aa)
   )
-  (wire (pts (xy 393.7 222.25) (xy 397.383 222.25))
+  (wire (pts (xy 382.905 187.96) (xy 386.588 187.96))
     (stroke (width 0) (type default))
     (uuid cf045de6-94a1-4406-85e8-1e57a499f00f)
   )
@@ -9602,6 +9727,10 @@
     (stroke (width 0) (type default))
     (uuid d7bfa704-bd1a-42ed-bc62-bbf103a22dea)
   )
+  (wire (pts (xy 368.3 83.312) (xy 368.3 83.947))
+    (stroke (width 0) (type default))
+    (uuid d9e6c614-e286-4864-9d5c-7fec74fa4558)
+  )
   (wire (pts (xy 27.305 153.67) (xy 26.543 153.67))
     (stroke (width 0) (type default))
     (uuid db370675-b864-4705-bfad-55147e80cd4b)
@@ -9641,6 +9770,10 @@
   (wire (pts (xy 320.04 40.132) (xy 320.04 47.752))
     (stroke (width 0) (type default))
     (uuid e2ce6a93-9984-44a0-8799-3c92147de11f)
+  )
+  (wire (pts (xy 365.379 119.253) (xy 362.204 119.253))
+    (stroke (width 0) (type default))
+    (uuid e36539f1-df43-4b19-a354-dae7c064dcf5)
   )
   (wire (pts (xy 54.991 190.246) (xy 54.991 187.706))
     (stroke (width 0) (type default))
@@ -9698,9 +9831,17 @@
     (stroke (width 0) (type default))
     (uuid eb97acc2-59ba-43f7-a6c2-d8088c37212f)
   )
+  (wire (pts (xy 403.098 92.837) (xy 408.432 92.837))
+    (stroke (width 0) (type default))
+    (uuid ec11a453-d0bd-44d7-867f-7ce38cfa66d7)
+  )
   (wire (pts (xy 21.971 197.866) (xy 21.971 200.406))
     (stroke (width 0) (type default))
     (uuid ec652c8e-e2a0-4ba7-b92e-0210beb5d13d)
+  )
+  (wire (pts (xy 326.517 106.807) (xy 328.041 106.807))
+    (stroke (width 0) (type default))
+    (uuid ecee259a-18e0-421c-ad86-9493fe7b34c7)
   )
   (wire (pts (xy 21.971 218.186) (xy 21.971 220.726))
     (stroke (width 0) (type default))
@@ -9709,6 +9850,10 @@
   (wire (pts (xy 74.93 34.798) (xy 68.326 34.798))
     (stroke (width 0) (type default))
     (uuid ed50453b-32dc-47e6-bc9c-f5d81afdfeb3)
+  )
+  (wire (pts (xy 355.6 83.947) (xy 368.3 83.947))
+    (stroke (width 0) (type default))
+    (uuid edc6f32d-bf20-48c4-8bb1-39e71f115bbb)
   )
   (wire (pts (xy 53.721 190.246) (xy 54.991 190.246))
     (stroke (width 0) (type default))
@@ -9726,7 +9871,7 @@
     (stroke (width 0) (type default))
     (uuid f1255314-3bcc-4b59-a876-f285be3361fb)
   )
-  (wire (pts (xy 351.917 180.975) (xy 360.299 180.975))
+  (wire (pts (xy 364.49 165.989) (xy 372.872 165.989))
     (stroke (width 0) (type default))
     (uuid f26c5236-351f-4328-9ac8-7e456199e409)
   )
@@ -9746,9 +9891,13 @@
     (stroke (width 0) (type default))
     (uuid f42486e8-de96-4b37-ab6e-d20c819d1358)
   )
-  (wire (pts (xy 397.383 219.71) (xy 393.573 219.71))
+  (wire (pts (xy 386.588 185.42) (xy 382.778 185.42))
     (stroke (width 0) (type default))
     (uuid f4b18156-df4b-485c-992f-8776803cdfe6)
+  )
+  (wire (pts (xy 365.379 114.935) (xy 365.379 116.713))
+    (stroke (width 0) (type default))
+    (uuid f4e363ad-ae82-4a3f-98cf-37d90efd0dc6)
   )
   (wire (pts (xy 397.637 26.67) (xy 391.414 26.67))
     (stroke (width 0) (type default))
@@ -9769,6 +9918,10 @@
   (wire (pts (xy 68.326 39.878) (xy 68.326 41.148))
     (stroke (width 0) (type default))
     (uuid f8aed33b-e717-4754-8fc4-71a71c88e58e)
+  )
+  (wire (pts (xy 363.474 97.917) (xy 373.507 97.917))
+    (stroke (width 0) (type default))
+    (uuid f9cc9aa5-0064-431b-b2d8-eaeb1087ddf5)
   )
   (wire (pts (xy 93.218 37.338) (xy 100.33 37.338))
     (stroke (width 0) (type default))
@@ -9844,9 +9997,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6f7c10e5-a14d-431c-a671-841cd4bca531)
   )
-  (text "Camera Flash input" (at 312.801 139.446 0)
+  (text "Camera Flash input 2\n" (at 312.801 139.446 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7f461db5-97f0-4d77-9c0c-6d6ccef3891c)
+  )
+  (text "Camera Flash input 1\n" (at 313.436 71.374 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 890e9e93-372e-4418-bd72-dd9b7a4ff7b3)
   )
   (text "CAMx_IO0 = Power enable  \nCAMx_IO1 = LED indicator"
     (at 354.076 61.468 0)
@@ -9886,7 +10043,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15da1198-8fa4-4e39-9abb-1ba62dc42387)
   )
-  (label "SDA" (at 230.759 121.158 0) (fields_autoplaced)
+  (label "SDA" (at 247.777 122.301 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 177cc86f-a99f-42c3-9e24-5db3951562e1)
   )
@@ -9918,7 +10075,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 356c7502-9b22-479c-b1a5-fa8b89feea8a)
   )
-  (label "CAM0_SCL" (at 226.314 123.698 180) (fields_autoplaced)
+  (label "CAM0_SCL" (at 243.332 124.841 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3dba7298-d0c7-48b6-b6e5-21ab5ce8d34b)
   )
@@ -9929,6 +10086,10 @@
   (label "CAM0_IO1" (at 391.414 26.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4a0f268d-137d-4da2-957c-477b4cac05a7)
+  )
+  (label "opto_out_1" (at 363.474 97.917 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4ab38a84-3275-47b4-8a29-03fd69b2c19b)
   )
   (label "CAM0_CLK+" (at 258.953 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9970,6 +10131,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 630774d6-53b3-438c-b1c3-2e6f4dd30df6)
   )
+  (label "Flash_EN_1" (at 201.422 175.514 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 630b12df-cb92-4d6a-9c8d-c1c1f7440d16)
+  )
   (label "opto_out" (at 370.713 152.019 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6311689c-564c-4974-9184-3e4a2aa96599)
@@ -9981,6 +10146,10 @@
   (label "CAM1_D1+" (at 258.445 82.423 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6509b5f5-0857-4a58-b076-242b9552c009)
+  )
+  (label "Flash_EN_1" (at 363.22 100.457 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 656c3086-ba08-4b05-9479-be0346aa4f07)
   )
   (label "CAM0_D0-" (at 258.953 38.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -10026,7 +10195,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8cd69ea2-dea6-4cc1-b48d-7c5755c51424)
   )
-  (label "Flash_EN" (at 351.79 183.515 0) (fields_autoplaced)
+  (label "Flash_EN" (at 364.363 168.529 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8d2e1200-a263-4842-8750-a4f6063c783e)
   )
@@ -10037,6 +10206,10 @@
   (label "CAM1_SDA" (at 95.25 200.787 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9cd5b558-793b-4534-851a-904345c9ddfb)
+  )
+  (label "opto_out_1" (at 326.517 104.267 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9e5b4978-b8ff-446b-a146-81d60541dc90)
   )
   (label "CAM1_D0+" (at 318.516 50.292 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -10062,9 +10235,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid adfccf50-0f84-4f83-a37f-4d7d56910d5b)
   )
+  (label "LDD_OUT_1" (at 343.154 119.253 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b05b315b-493a-4723-afd6-cf80b1f4e04a)
+  )
   (label "CAM1_D0+" (at 350.012 50.292 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b1bb2a81-31cf-4e32-9b0a-27410e019f79)
+  )
+  (label "LDD_OUT_1" (at 408.432 92.837 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b2211def-56d9-44fe-a27d-31406cad2a97)
   )
   (label "CAM1_D0+" (at 258.445 77.343 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -10086,7 +10267,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c27f759a-fa6a-4004-9bcb-c4ed00d68e32)
   )
-  (label "LDD_OUT" (at 353.314 221.615 180) (fields_autoplaced)
+  (label "LDD_OUT" (at 342.519 187.325 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cd8d09e4-c642-4f73-b0c2-336528b44207)
   )
@@ -10098,7 +10279,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d0bc3e5e-93ea-4cbc-a5c6-55f7f0fffc31)
   )
-  (label "SCL" (at 230.759 123.698 0) (fields_autoplaced)
+  (label "SCL" (at 247.777 124.841 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d2c98dc6-29c1-4512-930d-2b945769d262)
   )
@@ -10118,15 +10299,19 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d657d4d0-8f4b-4a87-9a3a-081dab0a1bd6)
   )
-  (label "opto_out" (at 351.917 180.975 0) (fields_autoplaced)
+  (label "opto_out" (at 364.49 165.989 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d99f52d3-071c-4920-aa1c-6d95921b2221)
+  )
+  (label "LDD_OUT" (at 410.464 161.036 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dacd9803-7382-4e51-a2d6-72dd57d3a266)
   )
   (label "CAM1_D1+" (at 350.012 42.672 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid deada33d-4b64-476f-bd3f-a4a4c7999768)
   )
-  (label "CAM0_SDA" (at 226.314 121.158 180) (fields_autoplaced)
+  (label "CAM0_SDA" (at 243.332 122.301 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid defb84b8-08f6-4d14-ad38-fe46fd990551)
   )
@@ -10145,6 +10330,10 @@
   (label "RPI_D-" (at 44.323 122.047 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e765e0a6-50a0-4ded-ae37-2f18a00cba42)
+  )
+  (label "opto_out_1" (at 371.348 83.947 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid edcb5c15-c23f-4f33-9d84-34071ac95b5b)
   )
   (label "CAM0_D0+" (at 258.953 35.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -10456,7 +10645,7 @@
   (symbol (lib_id "Device:L") (at 31.115 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03f7e348-ac6a-43ac-b22f-b4a078c8a6e8)
-    (property "Reference" "L5" (at 34.925 152.654 90)
+    (property "Reference" "L1" (at 34.925 152.654 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330 ohm/1.7A" (at 31.115 150.368 90)
@@ -10473,7 +10662,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "L5") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -10482,7 +10671,7 @@
   (symbol (lib_id "power:GND") (at 47.117 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04ab1568-8697-42d4-a3af-905e52798d22)
-    (property "Reference" "#PWR094" (at 47.117 167.64 0)
+    (property "Reference" "#PWR09" (at 47.117 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 47.117 166.497 0)
@@ -10498,7 +10687,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -10507,7 +10696,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 57.658 130.048 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06b61b78-491d-4293-a0f5-c73b84f2b6c6)
-    (property "Reference" "#PWR025" (at 57.658 136.398 0)
+    (property "Reference" "#PWR014" (at 57.658 136.398 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.785 134.4422 0)
@@ -10523,7 +10712,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10537,7 +10726,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+5V-power") (at 64.008 69.596 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07e7dc8f-7dc2-4120-a32c-b6f0e35265b6)
-    (property "Reference" "#PWR013" (at 64.008 73.406 0)
+    (property "Reference" "#PWR017" (at 64.008 73.406 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 64.389 65.2018 0)
@@ -10553,7 +10742,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10604,10 +10793,74 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:Conn_01x02_Female-Connector") (at 392.303 117.348 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0b274ae1-5735-44b7-a942-a7df1bf45726)
+    (property "Reference" "J12" (at 393.0142 117.9576 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "FLASH" (at 393.0142 120.269 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 392.303 117.348 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 392.303 117.348 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "-" (at 392.303 117.348 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8f697b8a-cd75-4d0d-8fdb-7550307b9de0))
+    (pin "2" (uuid d91dcf87-aaf0-4918-8c05-ed28c381d4d5))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "J12") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "J12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 381.127 96.647 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0b56ea49-1ee9-4280-b6f7-a6d7f6fd2573)
+    (property "Reference" "#PWR095" (at 381.127 100.457 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 383.794 92.964 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 381.127 96.647 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 381.127 96.647 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9e45f823-f6e6-4436-a55b-3998bb945b5a))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR095") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0123") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:Screw_Terminal_01x02-Connector") (at 320.802 174.879 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b6de183-a497-4a0e-a0d7-426534aab548)
-    (property "Reference" "J4" (at 322.8848 166.624 0)
+    (property "Reference" "J3" (at 322.8848 166.624 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STRB_IS" (at 318.008 173.355 90)
@@ -10627,7 +10880,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10641,7 +10894,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 85.598 47.752 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0be724f3-8519-4ae2-9d6d-99a4758b07fd)
-    (property "Reference" "#PWR021" (at 85.598 54.102 0)
+    (property "Reference" "#PWR022" (at 85.598 54.102 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.725 52.1462 0)
@@ -10657,7 +10910,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10671,7 +10924,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 298.958 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c3712f3-e82f-427b-839f-44d973e5b47c)
-    (property "Reference" "#PWR039" (at 298.958 34.29 0)
+    (property "Reference" "#PWR040" (at 298.958 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 302.006 29.972 0)
@@ -10687,7 +10940,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10701,7 +10954,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 68.326 41.148 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1025a4aa-8240-42d2-aec0-dbcc9aef85c2)
-    (property "Reference" "#PWR014" (at 68.326 47.498 0)
+    (property "Reference" "#PWR019" (at 68.326 47.498 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.453 45.5422 0)
@@ -10717,7 +10970,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10728,10 +10981,50 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 392.049 99.187 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1181b63a-c980-41db-af11-87959dde598d)
+    (property "Reference" "R29" (at 390.144 101.473 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1K" (at 390.779 97.409 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 392.049 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 392.049 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "CRCW06031K00FKEAC" (at 392.049 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C384295" (at 392.049 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "LCSC" (at 392.049 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3458d78e-52f5-464d-8357-36a313fab0fc))
+    (pin "2" (uuid c1fb28c9-80d4-4263-acfb-e663e5f1c1ea))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 27.686 64.643 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 135bd40d-ddca-43c3-9f1a-a46840b745f1)
-    (property "Reference" "#PWR03" (at 27.686 68.453 0)
+    (property "Reference" "#PWR04" (at 27.686 68.453 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 28.067 60.2488 0)
@@ -10747,7 +11040,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10758,10 +11051,40 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 381.127 101.727 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 14895ad2-ac33-4c03-8d96-26961b5bb569)
+    (property "Reference" "#PWR096" (at 381.127 108.077 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 381 106.1212 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 381.127 101.727 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 381.127 101.727 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 74d2cf08-075c-4f85-83e1-bd25ba3f1264))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR096") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0124") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 64.897 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14fc946e-59bb-4bd7-bb0c-522536899936)
-    (property "Reference" "C39" (at 65.405 155.956 0)
+    (property "Reference" "C5" (at 65.405 155.956 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 65.532 159.131 0)
@@ -10787,7 +11110,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C39") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10798,10 +11121,50 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 335.915 89.027 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1624d30a-f253-4ab1-8bc5-11199c1b86c3)
+    (property "Reference" "R27" (at 334.645 90.805 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1K" (at 334.645 87.249 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 335.915 89.027 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 335.915 89.027 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "CRCW06031K00FKEAC" (at 335.915 89.027 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C384295" (at 335.915 89.027 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "LCSC" (at 335.915 89.027 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bad42402-04a7-49b1-bb93-96ec48caeb46))
+    (pin "2" (uuid 6cc4de36-ebc8-4f67-a0f8-5e1c1f6d9eb0))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "R13") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 188.214 87.503 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1704f24e-67c0-4e3d-8055-8aef30161af4)
-    (property "Reference" "#PWR038" (at 188.214 93.853 0)
+    (property "Reference" "#PWR035" (at 188.214 93.853 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 188.341 91.8972 0)
@@ -10817,7 +11180,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10828,10 +11191,40 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 359.029 91.694 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 17f25b13-0c55-464e-84b0-ce49e03b97d5)
+    (property "Reference" "#PWR091" (at 359.029 98.044 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 358.902 96.0882 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 359.029 91.694 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 359.029 91.694 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e61cefa-f759-43f5-b3a3-c8d06c6b1f49))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR091") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0134") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:L_Small-Device") (at 104.394 37.338 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 199469aa-8f76-4475-a709-1b5f6c248b2f)
-    (property "Reference" "L2" (at 104.394 32.639 90)
+    (property "Reference" "L4" (at 104.394 32.639 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.9uH" (at 104.394 34.9504 90)
@@ -10851,7 +11244,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "L2") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10905,7 +11298,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 178.435 258.699 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d5edf9f-1343-4cee-9a87-5efdbb359520)
-    (property "Reference" "#PWR024" (at 178.435 265.049 0)
+    (property "Reference" "#PWR034" (at 178.435 265.049 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 178.562 263.0932 0)
@@ -10921,7 +11314,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10935,7 +11328,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 106.807 75.819 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e7e1d54-6e8a-47a0-a633-aff5fb906783)
-    (property "Reference" "C8" (at 109.1438 74.6506 0)
+    (property "Reference" "C10" (at 109.1438 74.6506 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 109.1438 76.962 0)
@@ -10961,7 +11354,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -10975,7 +11368,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+5V-power") (at 49.784 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f958903-2e8d-4383-8626-0b1829e3c580)
-    (property "Reference" "#PWR08" (at 49.784 28.575 0)
+    (property "Reference" "#PWR010" (at 49.784 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 50.165 20.3708 0)
@@ -10991,7 +11384,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11293,7 +11686,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 47.117 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 275870e5-9912-401c-8a8a-406c3389c2a2)
-    (property "Reference" "C36" (at 47.625 155.956 0)
+    (property "Reference" "C1" (at 47.625 155.956 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 47.752 159.131 0)
@@ -11319,7 +11712,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C36") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11330,10 +11723,40 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:+12V-power") (at 340.487 113.03 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 28e6c315-7de2-4762-a4b5-82a05e7c7ca4)
+    (property "Reference" "#PWR089" (at 340.487 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 340.868 108.6358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 340.487 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 340.487 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 798e8952-3240-4a2c-bd96-ede7b3ad239a))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR089") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 157.734 253.492 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2973e539-3e45-46d0-a2d9-f543add8ca3f)
-    (property "Reference" "C7" (at 160.0708 252.3236 0)
+    (property "Reference" "C13" (at 160.0708 252.3236 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 160.0708 254.635 0)
@@ -11359,7 +11782,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C7") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11373,7 +11796,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 348.488 16.383 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2eb387eb-9d1a-4caf-bf40-2dea85c5d4d6)
-    (property "Reference" "#PWR046" (at 348.488 20.193 0)
+    (property "Reference" "#PWR045" (at 348.488 20.193 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 345.44 15.875 0)
@@ -11389,7 +11812,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11400,10 +11823,100 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:+12V-power") (at 403.098 85.217 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2eeefa01-bde0-4d5c-850a-5b996b03cbb7)
+    (property "Reference" "#PWR099" (at 403.098 89.027 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 403.479 80.8228 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 403.098 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 403.098 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 02dea31c-3e5b-4bb9-8eef-12e78d360e98))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR099") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0136") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 340.487 123.571 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3159d3cc-52f3-46a4-b1c4-4bfc07a26dec)
+    (property "Reference" "#PWR090" (at 340.487 129.921 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 340.36 127.9652 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 340.487 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 340.487 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bb59ef8f-5d35-4887-b3dc-99bf554364cc))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR090") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0138") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 328.041 108.331 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 31616a4b-4589-4fa1-adec-67ed1425e084)
+    (property "Reference" "#PWR088" (at 328.041 114.681 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 327.914 112.7252 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 328.041 108.331 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 328.041 108.331 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d1584a54-d5cb-4695-8210-bd1e0c6b687e))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR088") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0110") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:+1V8-power") (at 168.529 249.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31bcc1dc-ff5a-43ff-a6a6-18a0aa4c0ce2)
-    (property "Reference" "#PWR033" (at 168.529 253.365 0)
+    (property "Reference" "#PWR031" (at 168.529 253.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 168.529 245.618 0)
@@ -11419,7 +11932,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11473,7 +11986,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:CP1_Small-Device") (at 49.784 30.353 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 374eda71-896c-4736-a182-27d01e538ba5)
-    (property "Reference" "C1" (at 52.0954 29.1846 0)
+    (property "Reference" "C2" (at 52.0954 29.1846 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220uF" (at 52.0954 31.496 0)
@@ -11499,7 +12012,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11513,7 +12026,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 392.938 15.621 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 395f8ccf-bac4-4145-a4b6-5a4c3296efe1)
-    (property "Reference" "#PWR058" (at 392.938 19.431 0)
+    (property "Reference" "#PWR059" (at 392.938 19.431 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 395.986 15.113 0)
@@ -11529,7 +12042,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11543,7 +12056,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+1V8-power") (at 109.474 69.342 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a3adcf4-b353-4b7f-9f91-928cb8d07be3)
-    (property "Reference" "#PWR029" (at 109.474 73.152 0)
+    (property "Reference" "#PWR025" (at 109.474 73.152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 109.855 64.9478 0)
@@ -11559,7 +12072,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11570,26 +12083,56 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:GNDPWR-power") (at 393.7 225.933 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:GNDPWR-power") (at 382.905 191.643 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c2e5f8f-f03e-433d-959d-721e0401e570)
-    (property "Reference" "#PWR063" (at 393.7 231.013 0)
+    (property "Reference" "#PWR062" (at 382.905 196.723 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDPWR" (at 393.8016 229.8446 0)
+    (property "Value" "GNDPWR" (at 383.0066 195.5546 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 393.7 227.203 0)
+    (property "Footprint" "" (at 382.905 192.913 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 393.7 227.203 0)
+    (property "Datasheet" "" (at 382.905 192.913 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c0afee78-4a59-4e8f-9cc4-6e9c62c8f647))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR062") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0151") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:GNDPWR-power") (at 383.54 123.571 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3f5336d2-f06b-4607-bc9a-38c73ea17407)
+    (property "Reference" "#PWR098" (at 383.54 128.651 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 383.6416 127.4826 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 383.54 124.841 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 383.54 124.841 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a4c0d9ea-76e4-4c4e-8e63-46d7fd66f195))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR098") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11603,7 +12146,7 @@
   (symbol (lib_id "power:GND") (at 59.055 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4191c26a-1ba7-4d08-ab35-603e0600ec60)
-    (property "Reference" "#PWR096" (at 59.055 167.64 0)
+    (property "Reference" "#PWR015" (at 59.055 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.055 166.497 0)
@@ -11619,7 +12162,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -11628,7 +12171,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 327.406 176.403 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 458ebfde-c256-46df-8de9-f1ab8f750260)
-    (property "Reference" "#PWR045" (at 327.406 182.753 0)
+    (property "Reference" "#PWR044" (at 327.406 182.753 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 327.279 180.7972 0)
@@ -11644,7 +12187,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11695,10 +12238,53 @@
     )
   )
 
+  (symbol (lib_id "RPICarrier:LDD500L") (at 352.044 115.443 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4b3f6e23-0037-4277-a9a5-1b54411a880c)
+    (property "Reference" "U10" (at 352.679 110.998 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LDD600L" (at 352.679 113.3094 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "RPi-Carrier:LDD-L" (at 352.044 114.173 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/260/LDD-L-SPEC-1291586.pdf" (at 352.044 115.443 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "LDD-600L" (at 352.044 115.443 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "-" (at 352.044 115.443 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "Mouser" (at 352.044 115.443 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f342fdf3-cbe3-4b6f-86d0-356c4a0d429b))
+    (pin "3" (uuid 53c654c3-8954-43c8-bec8-3bde301395de))
+    (pin "4" (uuid 95b3383f-4c64-49d5-a601-691187541e99))
+    (pin "5" (uuid e8515cc9-b46a-4c5e-8d99-44c95eedfc17))
+    (pin "6" (uuid 84cd302d-4f16-4938-a9fe-1bc9b36f24bb))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "U10") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "U11") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 168.529 253.619 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ca891d4-5f69-427c-ba9c-b97dec12cb62)
-    (property "Reference" "C11" (at 170.8658 252.4506 0)
+    (property "Reference" "C14" (at 170.8658 252.4506 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 170.8658 254.762 0)
@@ -11724,7 +12310,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11738,7 +12324,7 @@
   (symbol (lib_id "power:GND") (at 53.086 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f235c29-8b11-4ea7-a796-eec4598b1461)
-    (property "Reference" "#PWR095" (at 53.086 167.64 0)
+    (property "Reference" "#PWR012" (at 53.086 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.086 166.497 0)
@@ -11754,7 +12340,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -11763,7 +12349,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 70.739 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 517cc093-10cf-40be-baef-1a347185bb11)
-    (property "Reference" "C40" (at 71.247 155.956 0)
+    (property "Reference" "C8" (at 71.247 155.956 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 71.374 159.131 0)
@@ -11789,7 +12375,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C40") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11803,7 +12389,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 168.529 258.572 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51d016cd-8941-4aa5-95c4-164de5308fed)
-    (property "Reference" "#PWR034" (at 168.529 264.922 0)
+    (property "Reference" "#PWR032" (at 168.529 264.922 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.656 262.9662 0)
@@ -11819,7 +12405,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11830,28 +12416,28 @@
     )
   )
 
-  (symbol (lib_id "RPICarrier:LDD500L") (at 362.204 217.805 0) (unit 1)
+  (symbol (lib_id "RPICarrier:LDD500L") (at 351.409 183.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54b5bbda-a55f-4bf0-8678-3a36dbfecb18)
-    (property "Reference" "U5" (at 362.839 213.36 0)
+    (property "Reference" "U6" (at 352.044 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LDD600L" (at 362.839 215.6714 0)
+    (property "Value" "LDD600L" (at 352.044 181.3814 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RPi-Carrier:LDD-L" (at 362.204 216.535 0)
+    (property "Footprint" "RPi-Carrier:LDD-L" (at 351.409 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.mx/datasheet/2/260/LDD-L-SPEC-1291586.pdf" (at 362.204 217.805 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/260/LDD-L-SPEC-1291586.pdf" (at 351.409 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "LDD-600L" (at 362.204 217.805 0)
+    (property "manf#" "LDD-600L" (at 351.409 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC#" "-" (at 362.204 217.805 0)
+    (property "LCSC#" "-" (at 351.409 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Store" "Mouser" (at 362.204 217.805 0)
+    (property "Store" "Mouser" (at 351.409 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee19ae09-3000-4d5c-a1f6-8ba5e592daf7))
@@ -11862,7 +12448,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "U5") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11873,10 +12459,50 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 368.3 80.772 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 557bda38-2dc4-4b76-b282-537f4a7a85a9)
+    (property "Reference" "R28" (at 363.347 79.629 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "500K" (at 361.95 81.788 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 368.3 80.772 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 368.3 80.772 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "ERJ-PB6D4993V" (at 368.3 80.772 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C412382" (at 368.3 80.772 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "LCSC" (at 368.3 80.772 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8bee2137-1aed-4ebb-9da6-84eebb41059d))
+    (pin "2" (uuid 155eb030-7f20-4cd8-a9f8-d61c5eabffa1))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "R28") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 109.982 47.117 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 575353f1-11ac-45f9-af4c-fac2e39c8f33)
-    (property "Reference" "#PWR030" (at 109.982 53.467 0)
+    (property "Reference" "#PWR026" (at 109.982 53.467 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.109 51.5112 0)
@@ -11892,7 +12518,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11903,26 +12529,68 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 350.647 225.933 0) (mirror y) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:TCMT1103-Isolator") (at 347.98 86.487 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 593c4052-b6a3-40aa-be2d-297c3a160ae7)
-    (property "Reference" "#PWR049" (at 350.647 232.283 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 350.52 230.3272 0)
+    (uuid 588cb80d-8995-44b8-a9f5-9df1ffcd054f)
+    (property "Reference" "U9" (at 347.98 78.232 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 350.647 225.933 0)
+    (property "Value" "TCMT1103" (at 347.98 80.5434 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" (at 347.98 94.107 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 350.647 225.933 0)
+    (property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf" (at 347.98 87.757 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "manf#" "TCMT1103" (at 347.98 86.487 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C92243" (at 347.98 86.487 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "Mouser" (at 347.98 86.487 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ab291386-ad10-4bcc-83da-ab7cde652349))
+    (pin "2" (uuid cb2fa6f2-6b66-40d3-bfac-3ead412ff5ff))
+    (pin "3" (uuid 8959fd80-2fe2-4388-b045-bf57386f98a6))
+    (pin "4" (uuid 362cfe94-dda4-4a9c-9b70-c5b28bf9316b))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "U9") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "U8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 339.852 191.643 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 593c4052-b6a3-40aa-be2d-297c3a160ae7)
+    (property "Reference" "#PWR048" (at 339.852 197.993 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 339.725 196.0372 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 339.852 191.643 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 339.852 191.643 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dc014478-268b-4f7b-977e-4a75085b5bb0))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -11936,7 +12604,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 49.784 36.449 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a85f827-cec1-4ef6-923e-fc2f71abbaf4)
-    (property "Reference" "#PWR09" (at 49.784 42.799 0)
+    (property "Reference" "#PWR011" (at 49.784 42.799 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.911 40.8432 0)
@@ -11952,12 +12620,42 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "RPI-Carrier"
         (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
           (reference "#PWR0165") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:GNDPWR-power") (at 365.379 123.698 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5e6d16c0-85a5-47be-a5c8-87e47b8bbf78)
+    (property "Reference" "#PWR093" (at 365.379 128.778 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 365.4806 127.6096 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 365.379 124.968 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 365.379 124.968 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e23b9f1a-fa44-4599-bd6d-43d6f4991952))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR093") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -12007,26 +12705,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:+36V-power") (at 375.539 217.297 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:+36V-power") (at 364.744 183.007 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fe0633a-09a5-40aa-9b9c-65aae1ca1a7e)
-    (property "Reference" "#PWR056" (at 375.539 221.107 0)
+    (property "Reference" "#PWR055" (at 364.744 186.817 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+36V" (at 375.92 212.9028 0)
+    (property "Value" "+36V" (at 365.125 178.6128 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 375.539 217.297 0)
+    (property "Footprint" "" (at 364.744 183.007 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 375.539 217.297 0)
+    (property "Datasheet" "" (at 364.744 183.007 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b7083c93-5d10-4801-a11e-234fcfcd7978))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12040,7 +12738,7 @@
   (symbol (lib_id "power:GND") (at 70.739 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61c8e2de-da3f-4061-bc5c-fa9a56862f36)
-    (property "Reference" "#PWR098" (at 70.739 167.64 0)
+    (property "Reference" "#PWR021" (at 70.739 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 70.739 166.497 0)
@@ -12056,7 +12754,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -12105,7 +12803,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+5V-power") (at 38.608 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68ef5dcc-3bec-4caf-91f1-0435550ee7eb)
-    (property "Reference" "#PWR07" (at 38.608 27.305 0)
+    (property "Reference" "#PWR08" (at 38.608 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 38.989 19.1008 0)
@@ -12121,7 +12819,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12135,7 +12833,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+5V-power") (at 20.066 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a292cf9-96fa-4c06-bcbc-b5feed962921)
-    (property "Reference" "#PWR093" (at 20.066 157.48 0)
+    (property "Reference" "#PWR02" (at 20.066 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 20.066 149.098 0)
@@ -12151,7 +12849,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12165,7 +12863,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 189.738 259.207 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70ec4496-3ac6-467b-8e44-a7018b36e67d)
-    (property "Reference" "#PWR017" (at 189.738 265.557 0)
+    (property "Reference" "#PWR037" (at 189.738 265.557 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 263.6012 0)
@@ -12181,7 +12879,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12195,7 +12893,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 36.195 35.052 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72f77914-35ce-40b0-94eb-a02f4fa573a5)
-    (property "Reference" "#PWR06" (at 36.195 41.402 0)
+    (property "Reference" "#PWR07" (at 36.195 41.402 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.322 39.4462 0)
@@ -12211,7 +12909,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12222,26 +12920,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:+36V-power") (at 393.573 217.297 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:+36V-power") (at 382.778 183.007 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7662ed09-33a1-4751-bf80-4c2abe661252)
-    (property "Reference" "#PWR062" (at 393.573 221.107 0)
+    (property "Reference" "#PWR061" (at 382.778 186.817 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+36V" (at 393.954 212.9028 0)
+    (property "Value" "+36V" (at 383.159 178.6128 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 393.573 217.297 0)
+    (property "Footprint" "" (at 382.778 183.007 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 393.573 217.297 0)
+    (property "Datasheet" "" (at 382.778 183.007 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fc2648d0-6ef4-4083-ba27-a013fbcf2ff0))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12255,7 +12953,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 320.04 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78409cc2-cded-4ded-926b-761b75a9f24b)
-    (property "Reference" "#PWR044" (at 320.04 64.135 0)
+    (property "Reference" "#PWR043" (at 320.04 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 320.167 62.1792 0)
@@ -12271,7 +12969,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12285,7 +12983,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 68.58 73.152 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78f502df-71ea-40bb-9d7c-afbb18b0eb41)
-    (property "Reference" "C3" (at 70.9168 71.9836 0)
+    (property "Reference" "C7" (at 70.9168 71.9836 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 70.9168 74.295 0)
@@ -12311,7 +13009,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C3") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12325,7 +13023,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 54.991 260.604 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c383009-b853-4f26-99a4-998dc954d901)
-    (property "Reference" "#PWR089" (at 54.991 266.954 0)
+    (property "Reference" "#PWR013" (at 54.991 266.954 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.864 264.9982 0)
@@ -12341,7 +13039,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12355,7 +13053,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 27.686 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f131764-6895-4651-93f3-59f0b50e986f)
-    (property "Reference" "#PWR04" (at 27.686 86.36 0)
+    (property "Reference" "#PWR05" (at 27.686 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.813 84.4042 0)
@@ -12371,7 +13069,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12382,26 +13080,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 389.89 190.5 0) (mirror y) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 402.463 175.514 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 803fc99b-bf83-4ae3-a727-010a8c036745)
-    (property "Reference" "#PWR061" (at 389.89 196.85 0)
+    (property "Reference" "#PWR058" (at 402.463 181.864 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 389.763 194.8942 0)
+    (property "Value" "GND" (at 402.336 179.9082 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 389.89 190.5 0)
+    (property "Footprint" "" (at 402.463 175.514 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 389.89 190.5 0)
+    (property "Datasheet" "" (at 402.463 175.514 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6d58ef8d-f71c-4020-829e-d950e632fef5))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12415,7 +13113,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:TCMT1103-Isolator") (at 347.345 154.559 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8130fb2d-3b68-4da0-bc47-c8e58a1922a5)
-    (property "Reference" "U4" (at 347.345 146.304 0)
+    (property "Reference" "U5" (at 347.345 146.304 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TCMT1103" (at 347.345 148.6154 0)
@@ -12443,7 +13141,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12664,22 +13362,22 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:Conn_01x02_Female-Connector") (at 402.463 219.71 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:Conn_01x02_Female-Connector") (at 391.668 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 818e62ec-c24b-441b-9fdb-7593c0bee6f1)
-    (property "Reference" "J7" (at 403.1742 220.3196 0)
+    (property "Reference" "J7" (at 392.3792 186.0296 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "FLASH" (at 403.1742 222.631 0)
+    (property "Value" "FLASH" (at 392.3792 188.341 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 402.463 219.71 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 391.668 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 402.463 219.71 0)
+    (property "Datasheet" "~" (at 391.668 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC#" "-" (at 402.463 219.71 0)
+    (property "LCSC#" "-" (at 391.668 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 40f1ec1e-a36b-47bf-85c6-96305f5ceeec))
@@ -12698,10 +13396,40 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 403.098 107.442 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8206d3f2-2543-447a-850a-2c5951cf2e79)
+    (property "Reference" "#PWR0100" (at 403.098 113.792 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 402.971 111.8362 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 403.098 107.442 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 403.098 107.442 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 558f1e3a-47d7-4339-8449-0ac467238169))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR0100") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0141") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:Screw_Terminal_01x02-Connector") (at 321.564 155.956 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 842e8c7c-3762-4ae2-bc11-d2b9a3770500)
-    (property "Reference" "J5" (at 323.6468 147.701 0)
+    (property "Reference" "J4" (at 323.6468 147.701 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STRB" (at 318.77 154.432 90)
@@ -12721,7 +13449,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12735,7 +13463,7 @@
   (symbol (lib_id "Device:L") (at 31.242 159.004 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84cd1f13-8ff2-412a-a7bc-0a4a4e5afbfc)
-    (property "Reference" "L6" (at 31.242 156.972 90)
+    (property "Reference" "L2" (at 31.242 156.972 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330 ohm/1.7A" (at 31.242 160.528 90)
@@ -12752,7 +13480,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "L6") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -12761,7 +13489,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 68.326 37.338 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86132c91-23fb-4f52-950b-cc61b37429a6)
-    (property "Reference" "C2" (at 70.6628 36.1696 0)
+    (property "Reference" "C6" (at 70.6628 36.1696 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 70.6628 38.481 0)
@@ -12787,7 +13515,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C2") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12801,7 +13529,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 370.84 36.068 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 861cc1a1-71cf-44cb-816d-a19f7185eb96)
-    (property "Reference" "C13" (at 373.1768 34.8996 0)
+    (property "Reference" "C18" (at 373.1768 34.8996 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 373.1768 37.211 0)
@@ -12827,7 +13555,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C13") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12838,10 +13566,40 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 368.3 76.835 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8621bef2-cae8-473e-a9be-87c82e7d4b7e)
+    (property "Reference" "#PWR094" (at 368.3 80.645 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 371.348 76.327 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 368.3 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 368.3 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 518ce091-c1e0-4989-9cba-c6430fb5876c))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR094") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0132") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 109.982 43.434 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 896a2f82-353b-41d7-844f-8589e55b7edd)
-    (property "Reference" "C9" (at 104.394 42.418 0)
+    (property "Reference" "C11" (at 104.394 42.418 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 104.775 45.212 0)
@@ -12867,7 +13625,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12881,7 +13639,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+12V-power") (at 33.401 23.622 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bdb784e-989b-48c8-802e-75519c574235)
-    (property "Reference" "#PWR05" (at 33.401 27.432 0)
+    (property "Reference" "#PWR06" (at 33.401 27.432 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 33.782 19.2278 0)
@@ -12897,7 +13655,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12908,28 +13666,28 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 389.89 172.212 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 402.463 157.226 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fc52ce2-7fe0-40cf-8e86-d2cb06c1a434)
-    (property "Reference" "R9" (at 384.937 171.069 0)
+    (property "Reference" "R9" (at 397.51 156.083 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K" (at 383.54 173.228 0)
+    (property "Value" "10K" (at 396.113 158.242 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 389.89 172.212 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 402.463 157.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 389.89 172.212 0)
+    (property "Datasheet" "~" (at 402.463 157.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "SFR03EZPF1002" (at 389.89 172.212 0)
+    (property "manf#" "SFR03EZPF1002" (at 402.463 157.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC#" "C99198" (at 389.89 172.212 0)
+    (property "LCSC#" "C99198" (at 402.463 157.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Store" "LCSC" (at 389.89 172.212 0)
+    (property "Store" "LCSC" (at 402.463 157.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b5879f87-499e-472c-81aa-15a2fb07389d))
@@ -12948,26 +13706,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:GNDPWR-power") (at 375.539 226.06 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:GNDPWR-power") (at 364.744 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90e3cb9b-5031-4b10-98c8-4da28fb380af)
-    (property "Reference" "#PWR057" (at 375.539 231.14 0)
+    (property "Reference" "#PWR056" (at 364.744 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDPWR" (at 375.6406 229.9716 0)
+    (property "Value" "GNDPWR" (at 364.8456 195.6816 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 375.539 227.33 0)
+    (property "Footprint" "" (at 364.744 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 375.539 227.33 0)
+    (property "Datasheet" "" (at 364.744 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fb916d9f-0492-403a-9266-9859f6da0fc3))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -12981,7 +13739,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:L_Small-Device") (at 99.822 70.612 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9251e497-142d-4390-a7ff-0b8a9261d00b)
-    (property "Reference" "L1" (at 99.822 65.913 90)
+    (property "Reference" "L3" (at 99.822 65.913 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2uH" (at 99.822 68.2244 90)
@@ -13007,7 +13765,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "L1") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13021,7 +13779,7 @@
   (symbol (lib_id "RPICarrier:52610-1572") (at 324.739 19.812 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9841faf0-9046-4bb2-9567-a4714f9b760b)
-    (property "Reference" "J3" (at 334.264 14.097 0)
+    (property "Reference" "J5" (at 334.264 14.097 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "52610-1572" (at 334.264 16.4084 0)
@@ -13075,7 +13833,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13089,7 +13847,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 298.958 37.338 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9aab92e8-5184-4467-9970-7a7ed51ee35d)
-    (property "Reference" "#PWR040" (at 298.958 43.688 0)
+    (property "Reference" "#PWR041" (at 298.958 43.688 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 299.085 41.7322 0)
@@ -13105,7 +13863,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13119,7 +13877,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 113.538 47.117 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b48a730-d5a5-4436-a24f-058e0fb41ca6)
-    (property "Reference" "#PWR032" (at 113.538 53.467 0)
+    (property "Reference" "#PWR028" (at 113.538 53.467 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.665 51.5112 0)
@@ -13135,7 +13893,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13149,7 +13907,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 21.971 261.874 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c807d10-1770-4001-b578-a3077886b7ef)
-    (property "Reference" "#PWR090" (at 21.971 268.224 0)
+    (property "Reference" "#PWR03" (at 21.971 268.224 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 21.844 266.2682 0)
@@ -13165,7 +13923,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13179,7 +13937,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 178.435 249.682 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ff2ede0-b86b-48c9-9f39-1160a88c07be)
-    (property "Reference" "#PWR023" (at 178.435 253.492 0)
+    (property "Reference" "#PWR033" (at 178.435 253.492 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 178.816 245.2878 0)
@@ -13195,7 +13953,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13209,7 +13967,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 367.665 144.907 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3b2faae-4771-4a19-8960-c6daa68b07c5)
-    (property "Reference" "#PWR053" (at 367.665 148.717 0)
+    (property "Reference" "#PWR050" (at 367.665 148.717 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 370.713 144.399 0)
@@ -13225,7 +13983,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13239,7 +13997,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+5V-power") (at 63.754 33.782 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a46395e0-43f9-4c52-8c62-64aee48991c9)
-    (property "Reference" "#PWR012" (at 63.754 37.592 0)
+    (property "Reference" "#PWR016" (at 63.754 37.592 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 64.135 29.3878 0)
@@ -13255,7 +14013,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13337,7 +14095,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 178.435 253.746 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4896303-228d-4438-92f3-c8424f44bf58)
-    (property "Reference" "C5" (at 180.7718 252.5776 0)
+    (property "Reference" "C15" (at 180.7718 252.5776 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 180.7718 254.889 0)
@@ -13363,7 +14121,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C5") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13412,7 +14170,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 157.734 258.445 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad72ac8e-da00-4edc-8184-d70a8878cd54)
-    (property "Reference" "#PWR027" (at 157.734 264.795 0)
+    (property "Reference" "#PWR030" (at 157.734 264.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.861 262.8392 0)
@@ -13428,7 +14186,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13442,7 +14200,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 370.84 32.512 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0a14d7c-8eaa-48f3-a70e-586b69d1daf4)
-    (property "Reference" "#PWR050" (at 370.84 36.322 0)
+    (property "Reference" "#PWR053" (at 370.84 36.322 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 373.888 32.004 0)
@@ -13458,7 +14216,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13472,7 +14230,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 370.84 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b29e2bc9-741d-4161-bb33-ebbfaa660dad)
-    (property "Reference" "#PWR051" (at 370.84 45.72 0)
+    (property "Reference" "#PWR054" (at 370.84 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 370.967 43.7642 0)
@@ -13488,7 +14246,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13499,10 +14257,53 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:74AHC1G32-74xGxx") (at 381.127 99.187 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b3134753-cc3c-453a-b9ce-5b8c2783d69f)
+    (property "Reference" "U11" (at 384.556 96.901 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "74AHC1G32" (at 374.269 94.869 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 381.127 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g32.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1593119107361&ref_url=https%253A%252F%252Fwww.mouser.mx%252F" (at 381.127 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "SN74AHC1G32DBVR" (at 381.127 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C7470" (at 381.127 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "LCSC" (at 381.127 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 80b939c4-504b-4dca-af18-c7a8b2ea28a0))
+    (pin "2" (uuid 8d62c17b-b38a-4bf5-ba9d-a7b99a00558f))
+    (pin "3" (uuid 36ebf44a-3a28-4b30-beeb-407983a1d346))
+    (pin "4" (uuid 0829346a-57f8-4fb2-90f6-93b5699fe8ee))
+    (pin "5" (uuid 6644653a-ddff-4458-8442-9bc3a5221b69))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "U11") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 64.897 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5188382-533a-4249-9846-1739193df707)
-    (property "Reference" "#PWR097" (at 64.897 167.64 0)
+    (property "Reference" "#PWR018" (at 64.897 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.897 166.497 0)
@@ -13518,7 +14319,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -13527,7 +14328,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 113.538 43.434 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b52e8046-ae4f-4c75-b0e6-9531f995c7e6)
-    (property "Reference" "C10" (at 115.8748 42.2656 0)
+    (property "Reference" "C12" (at 115.8748 42.2656 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 115.8748 44.577 0)
@@ -13553,7 +14354,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13567,7 +14368,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 348.488 57.785 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b545e541-3d8e-4eed-ba00-0d6dd679cd27)
-    (property "Reference" "#PWR047" (at 348.488 64.135 0)
+    (property "Reference" "#PWR046" (at 348.488 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 348.361 62.1792 0)
@@ -13583,7 +14384,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13818,26 +14619,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 367.919 179.705 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 380.492 164.719 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b81b569d-e7ac-4f2f-9087-58cfb9a055ab)
-    (property "Reference" "#PWR054" (at 367.919 183.515 0)
+    (property "Reference" "#PWR051" (at 380.492 168.529 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 370.586 176.022 0)
+    (property "Value" "+3.3V" (at 383.159 161.036 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 367.919 179.705 0)
+    (property "Footprint" "" (at 380.492 164.719 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 367.919 179.705 0)
+    (property "Datasheet" "" (at 380.492 164.719 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4326d85c-6dc5-4911-b23c-25bdd6178c94))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13851,7 +14652,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 59.055 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd7956ef-8844-41eb-b1ce-1c3c2932ea5a)
-    (property "Reference" "C38" (at 59.563 155.956 0)
+    (property "Reference" "C4" (at 59.563 155.956 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 59.69 159.131 0)
@@ -13877,7 +14678,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C38") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13888,26 +14689,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:+12V-power") (at 389.89 168.275 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:+12V-power") (at 402.463 153.289 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf69caa7-1ffc-4150-9fab-437ab53ac110)
-    (property "Reference" "#PWR060" (at 389.89 172.085 0)
+    (property "Reference" "#PWR057" (at 402.463 157.099 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+12V" (at 390.271 163.8808 0)
+    (property "Value" "+12V" (at 402.844 148.8948 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 389.89 168.275 0)
+    (property "Footprint" "" (at 402.463 153.289 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 389.89 168.275 0)
+    (property "Datasheet" "" (at 402.463 153.289 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cba94f90-1ec0-43e9-b39e-a9345e78f77a))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13921,7 +14722,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 53.086 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2ee5606-71e9-4dbb-9677-40052bb00198)
-    (property "Reference" "C37" (at 53.594 155.956 0)
+    (property "Reference" "C3" (at 53.594 155.956 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 53.721 159.131 0)
@@ -13947,7 +14748,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C37") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -13961,7 +14762,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 96.393 34.798 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4c159a0-e675-4729-85ce-59a4dc0f200a)
-    (property "Reference" "C6" (at 94.996 30.099 90)
+    (property "Reference" "C9" (at 94.996 30.099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 94.107 32.004 90)
@@ -13987,7 +14788,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C6") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14001,7 +14802,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 85.852 82.042 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4ded18f-2b9a-4ced-b0fe-a796c35f8a5c)
-    (property "Reference" "#PWR022" (at 85.852 88.392 0)
+    (property "Reference" "#PWR023" (at 85.852 88.392 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.979 86.4362 0)
@@ -14017,7 +14818,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14031,7 +14832,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+5V-power") (at 189.738 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7ce533a-cb59-46ae-9ca6-b9d08ec54909)
-    (property "Reference" "#PWR016" (at 189.738 254 0)
+    (property "Reference" "#PWR036" (at 189.738 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 189.738 245.618 0)
@@ -14047,7 +14848,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14058,26 +14859,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:+12V-power") (at 350.647 215.392 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:+12V-power") (at 339.852 181.102 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid caae9ce0-0be4-43f0-911b-5ab681aa8b2a)
-    (property "Reference" "#PWR048" (at 350.647 219.202 0)
+    (property "Reference" "#PWR047" (at 339.852 184.912 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+12V" (at 351.028 210.9978 0)
+    (property "Value" "+12V" (at 340.233 176.7078 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 350.647 215.392 0)
+    (property "Footprint" "" (at 339.852 181.102 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 350.647 215.392 0)
+    (property "Datasheet" "" (at 339.852 181.102 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4eb1fbed-1c3c-4709-b1f8-101ebbe1b0ae))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14091,7 +14892,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 320.04 16.383 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccd65903-e044-4491-88c0-8ab382e39c9d)
-    (property "Reference" "#PWR043" (at 320.04 20.193 0)
+    (property "Reference" "#PWR042" (at 320.04 20.193 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 323.088 15.875 0)
@@ -14107,7 +14908,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14409,7 +15210,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 298.958 34.036 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0f6854d-b98a-43c6-8e6b-171b81023263)
-    (property "Reference" "C12" (at 301.2948 32.8676 0)
+    (property "Reference" "C17" (at 301.2948 32.8676 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 301.2948 35.179 0)
@@ -14435,7 +15236,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C12") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14446,10 +15247,50 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 403.098 89.154 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d21dfc3f-8c60-4632-bc58-8a4fba75418e)
+    (property "Reference" "R30" (at 398.145 88.011 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10K" (at 396.748 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 403.098 89.154 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 403.098 89.154 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "SFR03EZPF1002" (at 403.098 89.154 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C99198" (at 403.098 89.154 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "LCSC" (at 403.098 89.154 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 83c3d01c-9993-499b-98e6-85df0ede9e68))
+    (pin "2" (uuid c736dbbc-9e76-418e-9940-ea7b58d74e37))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 113.538 33.401 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2c0ebd5-3c12-47de-afdc-53f443629523)
-    (property "Reference" "#PWR031" (at 113.538 37.211 0)
+    (property "Reference" "#PWR027" (at 113.538 37.211 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 113.919 29.0068 0)
@@ -14465,7 +15306,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14476,10 +15317,40 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:+36V-power") (at 383.413 114.935 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d43d6ffd-119c-4b56-9066-ce9d71511b03)
+    (property "Reference" "#PWR097" (at 383.413 118.745 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+36V" (at 383.794 110.5408 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 383.413 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 383.413 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 389227fe-f43e-429d-98ea-407aef9e93c3))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR097") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0150") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 297.942 78.486 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4f2f2bf-46b7-40d4-a049-a7514766d3e3)
-    (property "Reference" "#PWR042" (at 297.942 82.296 0)
+    (property "Reference" "#PWR039" (at 297.942 82.296 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 297.942 74.803 0)
@@ -14495,7 +15366,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14509,7 +15380,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 106.807 79.121 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6c38c13-cfb2-4724-a591-d38ef3076682)
-    (property "Reference" "#PWR028" (at 106.807 85.471 0)
+    (property "Reference" "#PWR024" (at 106.807 85.471 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.934 83.5152 0)
@@ -14525,7 +15396,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14566,28 +15437,62 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 378.841 182.245 270) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:Screw_Terminal_01x02-Connector") (at 322.199 87.884 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid db99ed27-1bfa-4d61-9e66-f9f7221602cc)
+    (property "Reference" "J11" (at 324.2818 79.629 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "STRB" (at 319.405 86.36 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 322.199 87.884 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 322.199 87.884 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "-" (at 322.199 87.884 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a760c6a4-7fd3-41ea-a5dc-dd4b06ee07d4))
+    (pin "2" (uuid 0288f18b-f5d4-4c80-99ed-17095ea777cd))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "J11") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 391.414 167.259 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcc0f250-275b-4afb-8289-fa99c78ca419)
-    (property "Reference" "R8" (at 377.571 184.023 90)
+    (property "Reference" "R8" (at 390.144 169.037 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1K" (at 377.571 180.467 90)
+    (property "Value" "1K" (at 390.144 165.481 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 378.841 182.245 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 391.414 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 378.841 182.245 0)
+    (property "Datasheet" "~" (at 391.414 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "CRCW06031K00FKEAC" (at 378.841 182.245 0)
+    (property "manf#" "CRCW06031K00FKEAC" (at 391.414 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC#" "C384295" (at 378.841 182.245 0)
+    (property "LCSC#" "C384295" (at 391.414 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Store" "LCSC" (at 378.841 182.245 0)
+    (property "Store" "LCSC" (at 391.414 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2b705c96-230e-412d-829f-d452b0229735))
@@ -14609,7 +15514,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 291.592 78.359 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfad7005-3549-462b-afd7-d86addd1fca9)
-    (property "Reference" "#PWR041" (at 291.592 82.169 0)
+    (property "Reference" "#PWR038" (at 291.592 82.169 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 291.592 74.676 0)
@@ -14625,7 +15530,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14720,26 +15625,26 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 367.919 184.785 0) (mirror y) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 380.492 169.799 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e47b2f77-a9a9-493f-be3a-ffecd373166c)
-    (property "Reference" "#PWR055" (at 367.919 191.135 0)
+    (property "Reference" "#PWR052" (at 380.492 176.149 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 367.792 189.1792 0)
+    (property "Value" "GND" (at 380.365 174.1932 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 367.919 184.785 0)
+    (property "Footprint" "" (at 380.492 169.799 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 367.919 184.785 0)
+    (property "Datasheet" "" (at 380.492 169.799 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f3977a2e-efc9-4d07-acb6-23c31542a297))
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14753,7 +15658,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:C_Small-Device") (at 189.738 254.254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e78cbb26-4bbf-44cf-8484-42c129333d5d)
-    (property "Reference" "C4" (at 192.0748 253.0856 0)
+    (property "Reference" "C16" (at 192.0748 253.0856 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 192.0748 255.397 0)
@@ -14779,7 +15684,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "C4") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14830,28 +15735,28 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:74AHC1G32-74xGxx") (at 367.919 182.245 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:74AHC1G32-74xGxx") (at 380.492 167.259 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e957d15c-27e3-4f18-a09d-9b48ae352e43)
-    (property "Reference" "U6" (at 371.348 179.959 0)
+    (property "Reference" "U7" (at 383.921 164.973 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74AHC1G32" (at 361.061 177.927 0)
+    (property "Value" "74AHC1G32" (at 373.634 162.941 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 367.919 182.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 380.492 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g32.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1593119107361&ref_url=https%253A%252F%252Fwww.mouser.mx%252F" (at 367.919 182.245 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g32.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1593119107361&ref_url=https%253A%252F%252Fwww.mouser.mx%252F" (at 380.492 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "SN74AHC1G32DBVR" (at 367.919 182.245 0)
+    (property "manf#" "SN74AHC1G32DBVR" (at 380.492 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC#" "C7470" (at 367.919 182.245 0)
+    (property "LCSC#" "C7470" (at 380.492 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Store" "LCSC" (at 367.919 182.245 0)
+    (property "Store" "LCSC" (at 380.492 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ca5a0a63-90c8-40f0-a9f7-0a0a6ed1c0dd))
@@ -14862,7 +15767,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "U6") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14876,7 +15781,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3.3V-power") (at 157.734 249.428 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec4ac3e1-8f1f-468a-bcbd-6c79fef047d6)
-    (property "Reference" "#PWR026" (at 157.734 253.238 0)
+    (property "Reference" "#PWR029" (at 157.734 253.238 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 158.115 245.0338 0)
@@ -14892,7 +15797,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -14906,7 +15811,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 41.402 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eed49447-2f78-49da-80df-1cc5895711ea)
-    (property "Reference" "R27" (at 43.307 151.511 90)
+    (property "Reference" "R2" (at 43.307 151.511 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10m" (at 43.688 155.956 90)
@@ -14932,12 +15837,76 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "R27") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "RPI-Carrier"
         (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
           (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:+36V-power") (at 365.379 114.935 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid efadc790-a8a3-473a-9444-ab7ae8afb47a)
+    (property "Reference" "#PWR092" (at 365.379 118.745 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+36V" (at 365.76 110.5408 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 365.379 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 365.379 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 498a18d2-4939-42d8-a288-3fc3575d69f8))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "#PWR092") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "#PWR0148") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RPI-Carrier-rescue:Screw_Terminal_01x02-Connector") (at 321.437 106.807 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f011c366-1767-4c54-8ebb-127553229a53)
+    (property "Reference" "J10" (at 323.5198 98.552 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "STRB_IS" (at 318.643 105.283 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 321.437 106.807 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 321.437 106.807 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "-" (at 321.437 106.807 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa8f8dba-1f38-4e1a-bd3d-baa88b5740c5))
+    (pin "2" (uuid 57bda669-6169-473c-a0e4-27683f51877a))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "J10") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -14986,7 +15955,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 358.394 159.766 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f20a320c-ce2f-43da-87a1-360beebdcf5a)
-    (property "Reference" "#PWR052" (at 358.394 166.116 0)
+    (property "Reference" "#PWR049" (at 358.394 166.116 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 358.267 164.1602 0)
@@ -15002,7 +15971,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -15013,10 +15982,51 @@
     )
   )
 
+  (symbol (lib_id "RPI-Carrier-rescue:MMBT3904-Transistor_BJT") (at 400.558 99.187 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f9785d26-8c29-49fa-9928-259176f22a4d)
+    (property "Reference" "Q2" (at 405.384 98.0186 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MMBT2222ALT1G" (at 404.876 101.346 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 405.638 101.092 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" (at 400.558 99.187 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "manf#" "MMBT2222ALT1G" (at 400.558 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C82460" (at 400.558 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Store" "LCSC" (at 400.558 99.187 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b22bda72-476f-4919-8454-d9c1c847360a))
+    (pin "2" (uuid 3d4326f2-ea04-4194-8cf8-9f8d614d3386))
+    (pin "3" (uuid 1b125e56-6a5d-4005-81c1-1bf2fc64a248))
+    (instances
+      (project "Yavia_Carrier"
+        (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "RPI-Carrier"
+        (path "/dde8619c-5a8c-40eb-9845-65e6a654222d"
+          (reference "Q4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 68.58 76.962 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa214ed7-b8ba-4a48-8c6b-f25b03b0fdd7)
-    (property "Reference" "#PWR015" (at 68.58 83.312 0)
+    (property "Reference" "#PWR020" (at 68.58 83.312 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.707 81.3562 0)
@@ -15032,7 +16042,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -15312,7 +16322,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 392.938 57.023 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fba4e342-9fb0-432a-9b92-b4088f26fe6f)
-    (property "Reference" "#PWR059" (at 392.938 63.373 0)
+    (property "Reference" "#PWR060" (at 392.938 63.373 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 393.065 61.4172 0)
@@ -15328,7 +16338,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -15339,28 +16349,28 @@
     )
   )
 
-  (symbol (lib_id "RPI-Carrier-rescue:MMBT3904-Transistor_BJT") (at 387.35 182.245 0) (unit 1)
+  (symbol (lib_id "RPI-Carrier-rescue:MMBT3904-Transistor_BJT") (at 399.923 167.259 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbaf6370-5835-4f87-8012-9dd9e185d747)
-    (property "Reference" "Q1" (at 392.176 181.0766 0)
+    (property "Reference" "Q1" (at 404.749 166.0906 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MMBT2222ALT1G" (at 392.176 183.388 0)
+    (property "Value" "MMBT2222ALT1G" (at 404.749 168.402 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 392.43 184.15 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 405.003 169.164 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" (at 387.35 182.245 0)
+    (property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" (at 399.923 167.259 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "manf#" "MMBT2222ALT1G" (at 387.35 182.245 0)
+    (property "manf#" "MMBT2222ALT1G" (at 399.923 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC#" "C82460" (at 387.35 182.245 0)
+    (property "LCSC#" "C82460" (at 399.923 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Store" "LCSC" (at 387.35 182.245 0)
+    (property "Store" "LCSC" (at 399.923 167.259 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d9300c89-b046-4be9-a149-ed4d480030b6))
