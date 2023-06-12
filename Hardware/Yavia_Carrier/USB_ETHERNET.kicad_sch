@@ -2952,7 +2952,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 132.08 150.241 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0636cfea-affa-4c32-9c3b-2044b910002e)
-    (property "Reference" "#PWR080" (at 132.08 156.591 0)
+    (property "Reference" "#PWR094" (at 132.08 156.591 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.207 154.6352 0)
@@ -2968,7 +2968,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -2988,7 +2988,7 @@
     (property "Value" "4.7uF" (at 18.923 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 19.6342 33.02 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 19.6342 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 18.669 29.21 0)
@@ -3028,7 +3028,7 @@
     (property "Value" "0.1uF" (at 48.133 53.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 46.0502 53.086 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 46.0502 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.085 49.276 0)
@@ -3062,7 +3062,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 26.289 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13189878-71a7-4048-8891-db0cb108dfd0)
-    (property "Reference" "#PWR064" (at 26.289 43.18 0)
+    (property "Reference" "#PWR078" (at 26.289 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.416 41.2242 0)
@@ -3078,7 +3078,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3092,13 +3092,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 53.213 146.177 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 154d4511-bc97-4d93-a51c-91db3bc88394)
-    (property "Reference" "R14" (at 51.943 148.209 90)
+    (property "Reference" "R18" (at 51.943 148.209 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 51.308 144.272 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 53.213 146.177 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 53.213 146.177 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.213 146.177 0)
@@ -3118,7 +3118,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R14") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3218,13 +3218,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:Conn_02x04_Odd_Even-Connector_Generic") (at 238.633 33.782 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e6a22e7-11c2-4c6e-9508-eb3a8ea5a133)
-    (property "Reference" "J8" (at 239.903 25.7302 0)
+    (property "Reference" "J11" (at 239.903 25.7302 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB" (at 239.903 28.0416 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RPi-Carrier:DF11-8DP-2DSA(08)" (at 238.633 33.782 0)
+    (property "Footprint" "Yavia_carrier:DF11-8DP-2DSA(08)" (at 238.633 33.782 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.633 33.782 0)
@@ -3250,7 +3250,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "J8") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3264,7 +3264,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 41.402 181.864 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e6bb402-0612-4af1-bdfe-c04185464504)
-    (property "Reference" "#PWR067" (at 41.402 188.214 0)
+    (property "Reference" "#PWR081" (at 41.402 188.214 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.529 186.2582 0)
@@ -3280,7 +3280,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3300,7 +3300,7 @@
     (property "Value" "0.1uF" (at 28.829 74.168 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 26.7462 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 26.7462 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.781 69.85 0)
@@ -3334,7 +3334,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 31.623 55.372 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2975e50d-09de-467d-9f06-4a90bb1f5a3d)
-    (property "Reference" "#PWR065" (at 31.623 61.722 0)
+    (property "Reference" "#PWR079" (at 31.623 61.722 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 59.7662 0)
@@ -3350,7 +3350,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3370,7 +3370,7 @@
     (property "Value" "0.01uF" (at 44.45 181.102 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 42.3672 180.34 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 42.3672 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.402 176.53 0)
@@ -3444,7 +3444,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 155.194 84.709 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 335bac63-c197-4619-9aa3-6a652ec9a19a)
-    (property "Reference" "#PWR084" (at 155.194 91.059 0)
+    (property "Reference" "#PWR098" (at 155.194 91.059 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.321 89.1032 0)
@@ -3460,7 +3460,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3474,7 +3474,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 58.928 134.493 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 344d97a6-f192-4aa7-a894-2bf6a29129e1)
-    (property "Reference" "#PWR072" (at 58.928 138.303 0)
+    (property "Reference" "#PWR086" (at 58.928 138.303 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 58.547 130.429 0)
@@ -3490,7 +3490,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3510,7 +3510,7 @@
     (property "Value" "33pF" (at 50.8 111.252 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 48.7172 110.49 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 48.7172 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 47.752 106.68 0)
@@ -3544,7 +3544,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 90.043 75.438 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d2c1bb1-101b-4e0f-abe6-d1a5e97eedee)
-    (property "Reference" "#PWR077" (at 90.043 79.248 0)
+    (property "Reference" "#PWR091" (at 90.043 79.248 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 89.662 71.374 0)
@@ -3560,7 +3560,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3574,7 +3574,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 147.32 73.787 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f621c87-6a52-4073-b2a1-905fda2ebbd1)
-    (property "Reference" "#PWR082" (at 147.32 77.597 0)
+    (property "Reference" "#PWR096" (at 147.32 77.597 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 146.939 69.723 0)
@@ -3590,7 +3590,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3604,7 +3604,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 44.831 74.676 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4180b400-2d5e-4ad0-aa85-8b8ece394b2c)
-    (property "Reference" "#PWR069" (at 44.831 81.026 0)
+    (property "Reference" "#PWR083" (at 44.831 81.026 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.958 79.0702 0)
@@ -3620,7 +3620,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3640,7 +3640,7 @@
     (property "Value" "33pF" (at 40.259 111.252 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 38.1762 110.49 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 38.1762 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 37.211 106.68 0)
@@ -3674,13 +3674,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:Conn_02x04_Odd_Even-Connector_Generic") (at 239.141 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 533f4a60-bb75-4ce1-b45f-b466421ea73a)
-    (property "Reference" "J9" (at 240.411 59.8932 0)
+    (property "Reference" "J12" (at 240.411 59.8932 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Ethernet" (at 240.411 62.2046 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RPi-Carrier:DF11-8DP-2DSA(08)" (at 239.141 67.945 0)
+    (property "Footprint" "Yavia_carrier:DF11-8DP-2DSA(08)" (at 239.141 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 239.141 67.945 0)
@@ -3706,7 +3706,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "J9") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3720,7 +3720,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 85.09 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5377b432-1672-4993-8db5-784fb51139d3)
-    (property "Reference" "#PWR074" (at 85.09 54.61 0)
+    (property "Reference" "#PWR088" (at 85.09 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 84.709 46.736 0)
@@ -3736,7 +3736,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3750,7 +3750,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 41.402 165.481 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62c2c08a-7500-4f74-b19a-eb66aed344e5)
-    (property "Reference" "#PWR066" (at 41.402 169.291 0)
+    (property "Reference" "#PWR080" (at 41.402 169.291 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 41.021 161.417 0)
@@ -3766,7 +3766,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3780,13 +3780,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 197.104 147.447 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65e64b1d-fe34-4c16-86f6-ea8b79a5d0ff)
-    (property "Reference" "R25" (at 196.088 146.685 0)
+    (property "Reference" "R29" (at 196.088 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75R" (at 196.342 148.717 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 197.104 147.447 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 197.104 147.447 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 197.104 147.447 0)
@@ -3806,7 +3806,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R25") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3820,13 +3820,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 152.527 74.549 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e0fc3ec-013d-4b2b-a1c0-a81b8acccd2e)
-    (property "Reference" "R19" (at 151.257 76.581 90)
+    (property "Reference" "R23" (at 151.257 76.581 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 150.622 72.644 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 152.527 74.549 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 152.527 74.549 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.527 74.549 0)
@@ -3846,7 +3846,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R19") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3866,7 +3866,7 @@
     (property "Value" "0.1uF" (at 26.543 31.623 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 27.2542 33.02 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 27.2542 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.289 29.21 0)
@@ -3906,7 +3906,7 @@
     (property "Value" "0.1uF" (at 66.929 74.168 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 64.8462 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 64.8462 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.881 69.85 0)
@@ -3940,13 +3940,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 153.162 109.982 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 722b1dd0-1f18-4137-b606-93d1d9b1e822)
-    (property "Reference" "R22" (at 154.178 104.394 90)
+    (property "Reference" "R26" (at 154.178 104.394 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "50R" (at 151.638 108.077 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 153.162 109.982 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 153.162 109.982 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.162 109.982 0)
@@ -3966,7 +3966,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R22") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -3980,13 +3980,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 152.781 44.069 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78182398-0fd0-4a55-96ee-23b8840b13ee)
-    (property "Reference" "R21" (at 151.511 46.101 90)
+    (property "Reference" "R25" (at 151.511 46.101 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "825 1/10W" (at 146.177 41.275 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 152.781 44.069 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 152.781 44.069 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.781 44.069 0)
@@ -4006,7 +4006,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R21") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4020,7 +4020,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 248.539 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e60deb2-be0f-43e1-b157-8b23cd8e361f)
-    (property "Reference" "#PWR086" (at 248.539 48.26 0)
+    (property "Reference" "#PWR0100" (at 248.539 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.666 46.3042 0)
@@ -4036,7 +4036,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4090,13 +4090,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 156.464 109.982 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8357c38b-f2d0-4bb4-a2d3-fc7a665f97c7)
-    (property "Reference" "R24" (at 157.734 104.267 90)
+    (property "Reference" "R28" (at 157.734 104.267 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "50R" (at 154.94 108.077 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 156.464 109.982 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 156.464 109.982 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.464 109.982 0)
@@ -4116,7 +4116,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R24") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4136,7 +4136,7 @@
     (property "Value" "0.1uF" (at 41.529 53.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 39.4462 53.086 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 39.4462 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.481 49.276 0)
@@ -4176,7 +4176,7 @@
     (property "Value" "0.1uF" (at 34.671 53.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 32.5882 53.086 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 32.5882 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.623 49.276 0)
@@ -4210,7 +4210,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 199.136 161.544 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ca9d6e7-47f9-40be-934c-299889947aaf)
-    (property "Reference" "#PWR085" (at 199.136 167.894 0)
+    (property "Reference" "#PWR099" (at 199.136 167.894 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.263 165.9382 0)
@@ -4226,7 +4226,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4240,7 +4240,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 54.483 33.528 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 912f174e-0d9a-479b-8b9e-cff5c1a697dd)
-    (property "Reference" "#PWR070" (at 54.483 39.878 0)
+    (property "Reference" "#PWR084" (at 54.483 39.878 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 37.9222 0)
@@ -4256,7 +4256,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4270,7 +4270,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 108.839 96.266 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92368a83-d3df-4808-b983-0a97704a3ddc)
-    (property "Reference" "#PWR079" (at 108.839 102.616 0)
+    (property "Reference" "#PWR093" (at 108.839 102.616 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 108.966 100.6602 0)
@@ -4286,7 +4286,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4300,13 +4300,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 152.654 52.324 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 931ae9cf-bfe9-4dbf-b216-9978ca7efe81)
-    (property "Reference" "R20" (at 154.686 53.594 90)
+    (property "Reference" "R24" (at 154.686 53.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12.0K 1/10W" (at 149.86 58.928 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 152.654 52.324 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 152.654 52.324 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.654 52.324 0)
@@ -4326,7 +4326,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R20") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4340,13 +4340,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 89.281 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93e3734a-1c57-4905-84fe-2928be45fb2f)
-    (property "Reference" "R15" (at 88.011 64.262 90)
+    (property "Reference" "R19" (at 88.011 64.262 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 87.376 60.325 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 89.281 62.23 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 89.281 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 89.281 62.23 0)
@@ -4366,7 +4366,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R15") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4380,13 +4380,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 146.558 109.982 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 940a25b8-cde4-478d-892a-644686ca0ad5)
-    (property "Reference" "R17" (at 147.574 104.394 90)
+    (property "Reference" "R21" (at 147.574 104.394 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "50R" (at 145.034 108.077 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 146.558 109.982 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 146.558 109.982 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 146.558 109.982 0)
@@ -4406,7 +4406,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R17") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4420,7 +4420,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 144.78 43.688 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94e91393-cf7d-46f0-b519-4582371100b8)
-    (property "Reference" "#PWR081" (at 144.78 47.498 0)
+    (property "Reference" "#PWR095" (at 144.78 47.498 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 144.399 39.624 0)
@@ -4436,7 +4436,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4456,7 +4456,7 @@
     (property "Value" "0.1uF" (at 20.447 53.848 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 18.3642 53.086 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 18.3642 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 17.399 49.276 0)
@@ -4490,13 +4490,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 155.194 80.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a19f3e6f-06f0-47ea-827d-d60e1295d6c6)
-    (property "Reference" "R23" (at 157.226 81.915 90)
+    (property "Reference" "R27" (at 157.226 81.915 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12.4K" (at 153.035 83.566 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 155.194 80.645 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 155.194 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 155.194 80.645 0)
@@ -4516,7 +4516,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R23") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4662,7 +4662,7 @@
     (property "Value" "0.1uF" (at 34.163 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 34.8742 33.02 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 34.8742 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.909 29.21 0)
@@ -4738,7 +4738,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 58.928 124.333 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6a0f390-1470-4870-9518-139185daaa44)
-    (property "Reference" "#PWR071" (at 58.928 128.143 0)
+    (property "Reference" "#PWR085" (at 58.928 128.143 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 58.547 120.269 0)
@@ -4754,7 +4754,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4768,7 +4768,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 58.928 144.018 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6c55c0e-1275-40f4-916d-cc3a5fa86292)
-    (property "Reference" "#PWR073" (at 58.928 147.828 0)
+    (property "Reference" "#PWR087" (at 58.928 147.828 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 58.547 139.954 0)
@@ -4784,7 +4784,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4798,7 +4798,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 17.399 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a97371c1-4126-43ad-bd87-898bdb6ee6bd)
-    (property "Reference" "#PWR063" (at 17.399 46.355 0)
+    (property "Reference" "#PWR077" (at 17.399 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 17.018 38.481 0)
@@ -4814,7 +4814,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4868,13 +4868,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 200.66 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af5e3390-30d2-45fd-9d57-e6a7d0159f50)
-    (property "Reference" "R26" (at 205.359 146.558 0)
+    (property "Reference" "R30" (at 205.359 146.558 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75R" (at 205.486 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 200.66 147.32 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 200.66 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 200.66 147.32 0)
@@ -4894,7 +4894,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R26") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4914,7 +4914,7 @@
     (property "Value" "0.1uF" (at 60.579 74.168 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 58.4962 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 58.4962 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 57.531 69.85 0)
@@ -4948,13 +4948,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 42.926 89.535 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b04aa74a-e4de-4763-9441-1317e91fedf1)
-    (property "Reference" "R11" (at 41.656 91.567 90)
+    (property "Reference" "R15" (at 41.656 91.567 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 41.275 87.757 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 42.926 89.535 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 42.926 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 42.926 89.535 0)
@@ -4974,7 +4974,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R11") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -4994,7 +4994,7 @@
     (property "Value" "0.1uF" (at 41.783 74.168 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 39.7002 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 39.7002 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.735 69.85 0)
@@ -5034,7 +5034,7 @@
     (property "Value" "0.1uF" (at 47.879 74.168 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 45.7962 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 45.7962 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.831 69.85 0)
@@ -5068,7 +5068,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+5V-power") (at 250.063 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b89bb355-43bd-4f24-b271-eaf0738b0469)
-    (property "Reference" "#PWR087" (at 250.063 30.48 0)
+    (property "Reference" "#PWR0101" (at 250.063 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 250.444 22.2758 0)
@@ -5084,7 +5084,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5098,13 +5098,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 132.08 109.728 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb2932ca-bb5a-48f4-902b-f21421005b1b)
-    (property "Reference" "R16" (at 133.223 104.013 90)
+    (property "Reference" "R20" (at 133.223 104.013 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R" (at 130.175 108.077 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 132.08 109.728 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 132.08 109.728 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 109.728 0)
@@ -5124,7 +5124,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R16") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5138,7 +5138,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 15.24 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdc00c59-ebcf-4cc6-bf85-5bc4039d0d16)
-    (property "Reference" "#PWR0101" (at 15.24 67.31 0)
+    (property "Reference" "#PWR076" (at 15.24 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 14.859 59.436 0)
@@ -5154,7 +5154,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5168,13 +5168,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 53.213 136.652 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3be7bff-5e1e-4e73-9e2d-09cf3db60f08)
-    (property "Reference" "R13" (at 51.943 138.684 90)
+    (property "Reference" "R17" (at 51.943 138.684 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 51.308 134.747 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 53.213 136.652 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 53.213 136.652 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.213 136.652 0)
@@ -5194,7 +5194,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R13") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5208,7 +5208,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 42.672 112.014 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3f66bb8-25da-4ab3-b8e7-542c3a6070cd)
-    (property "Reference" "#PWR068" (at 42.672 118.364 0)
+    (property "Reference" "#PWR082" (at 42.672 118.364 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 42.799 116.4082 0)
@@ -5224,7 +5224,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5244,7 +5244,7 @@
     (property "Value" "1uF" (at 66.04 29.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 64.0842 32.512 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 64.0842 32.512 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.119 28.702 0)
@@ -5278,7 +5278,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 85.471 71.247 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbbd54f3-29ab-4133-993d-e9772c21a092)
-    (property "Reference" "#PWR075" (at 85.471 77.597 0)
+    (property "Reference" "#PWR089" (at 85.471 77.597 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.598 75.6412 0)
@@ -5294,7 +5294,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5308,7 +5308,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:+3V3-power") (at 98.679 25.654 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccd3a1dd-f1f8-431f-98a6-1ddb1093b0c5)
-    (property "Reference" "#PWR078" (at 98.679 29.464 0)
+    (property "Reference" "#PWR092" (at 98.679 29.464 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 98.298 21.59 0)
@@ -5324,7 +5324,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5344,7 +5344,7 @@
     (property "Value" "0.1uF" (at 27.559 53.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 25.4762 53.086 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 25.4762 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 24.511 49.276 0)
@@ -5378,7 +5378,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:LAN9512i-Interface_Ethernet") (at 108.839 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4a8493d-a31c-487d-a8c0-df50c57c2503)
-    (property "Reference" "U8" (at 119.253 93.853 0)
+    (property "Reference" "U10" (at 119.253 93.853 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LAN9512i" (at 100.457 94.107 0)
@@ -5467,7 +5467,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "U8") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5487,7 +5487,7 @@
     (property "Value" "HX1188NL" (at 173.863 109.7534 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RPi-Carrier:HXXXX" (at 173.863 127 0)
+    (property "Footprint" "Yavia_carrier:HXXXX" (at 173.863 127 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.mouser.mx/datasheet/2/336/HX1188NL-515471.pdf" (at 173.863 127 0)
@@ -5537,7 +5537,7 @@
     (property "Value" "0.1uF" (at 48.768 29.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 46.8122 32.512 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 46.8122 32.512 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.847 28.702 0)
@@ -5571,13 +5571,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 149.86 109.982 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de96c9d5-b345-497d-a796-f44c26270a96)
-    (property "Reference" "R18" (at 151.003 104.14 90)
+    (property "Reference" "R22" (at 151.003 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "50R" (at 148.336 108.077 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 149.86 109.982 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 149.86 109.982 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 109.982 0)
@@ -5597,7 +5597,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R18") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5611,7 +5611,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 86.995 80.137 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6137743-f3ee-4f09-b934-92fbfb892fea)
-    (property "Reference" "#PWR076" (at 86.995 86.487 0)
+    (property "Reference" "#PWR090" (at 86.995 86.487 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.122 84.5312 0)
@@ -5627,7 +5627,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5647,7 +5647,7 @@
     (property "Value" "0.1uF" (at 54.229 74.168 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 52.1462 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 52.1462 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 51.181 69.85 0)
@@ -5681,7 +5681,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:LAN9512i-Interface_Ethernet") (at 172.085 59.309 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb3f06cc-579c-4d48-a28d-0d4eb053014c)
-    (property "Reference" "U8" (at 172.085 27.1272 0)
+    (property "Reference" "U10" (at 172.085 27.1272 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LAN9512i" (at 172.085 29.4386 0)
@@ -5770,7 +5770,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "U8") (unit 2)
+          (reference "U10") (unit 2)
         )
       )
       (project "RPI-Carrier"
@@ -5784,13 +5784,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 53.213 126.492 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f52f2db7-2614-4abe-8217-0019946783b7)
-    (property "Reference" "R12" (at 51.943 128.524 90)
+    (property "Reference" "R16" (at 51.943 128.524 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 51.308 124.587 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 53.213 126.492 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 53.213 126.492 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.213 126.492 0)
@@ -5810,7 +5810,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R12") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5864,13 +5864,13 @@
   (symbol (lib_id "RPI-Carrier-rescue:R_Small-Device") (at 41.402 169.164 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f667eaed-5ecb-4e41-940a-f72fea64f6dc)
-    (property "Reference" "R10" (at 39.37 167.894 90)
+    (property "Reference" "R14" (at 39.37 167.894 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 43.307 167.259 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 41.402 169.164 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 41.402 169.164 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.402 169.164 0)
@@ -5890,7 +5890,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "R10") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5904,7 +5904,7 @@
   (symbol (lib_id "RPI-Carrier-rescue:GND-power") (at 152.654 56.134 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f985be1b-18c3-4173-a154-dc7b0dc9294a)
-    (property "Reference" "#PWR083" (at 152.654 62.484 0)
+    (property "Reference" "#PWR097" (at 152.654 62.484 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.781 60.5282 0)
@@ -5920,7 +5920,7 @@
     (instances
       (project "Yavia_Carrier"
         (path "/d3ee7e6f-d938-4854-bceb-6759b6fd3543/8153cea2-544a-4371-a6d2-51fa5f663b08"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
       (project "RPI-Carrier"
@@ -5940,7 +5940,7 @@
     (property "Value" "0.1uF" (at 35.179 74.168 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 33.0962 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 33.0962 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 32.131 69.85 0)
